@@ -1,0 +1,32 @@
+# This is the main configuration file for the MkDocs website.
+# Use hash-comments to comment out pages have not been written
+# Reference: http://www.mkdocs.org/user-guide/configuration/
+#
+site_name: OpenCDSS
+pages:
+- Introduction: index.md
+- License: license.md
+- Version Control: version-control.md
+- Documentation: documentation.md
+- Development Environment: dev-env.md
+- Testing: testing.md
+#- StateCU: statecu.md
+#- StateDMI: statedmi.md
+- StateMod: statemod.md
+#- StateView: stateview.md
+#- TSTool: tstool.md
+#- Resources: resources.md
+# ------- configuration properties ---------------
+# Use Material theme
+# - installation notes:  https://github.com/squidfunk/mkdocs-material
+theme: material
+# Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
+# - Also see edit_uri if repo_url is specified
+#repo_url:  https://github.com/OpenWaterFoundation/cdss-website-opencdss
+site_description:  OpenCDSS
+site_author:  Open Water Foundation
+site_favicon:  'images/opencdss-favicon.ico'
+copyright:  State of Colorado
+# Use extra CSS to customize styles, based on theme
+extra_css:
+  - 'css/extra-material-theme.css'
