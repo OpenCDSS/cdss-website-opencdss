@@ -1,28 +1,34 @@
 # OpenCDSS / Development Environment #
 
-The development environment for each CDSS software tool considers the following.
+This page summarizes OpenCDSS development environment topics.
 
-* version control - Git is standard for OpenCDSS
+* [Introduction](#introduction)
+* [Development Environment Challenges](#development-environment-challenges)
+* [Development Environment Documentation](#development-environment-documentation)
+
+-------------------
+
+## Introduction ##
+
+The development environment for each CDSS software tool typically includes the following:
+
+* version control - Git/GitHub is standard for OpenCDSS
 * dependency management - for third party components
-* documentation - MkDocs is standard for OpenCDSS when Word/PDF is not used
+* documentation - MkDocs is being used for some OpenCDSS components and Word/PDF has traditionally been used
 * editing - text editor or Integrated Development Environment (IDE) tool
 * testing - varies but tools such as TSTool are used to automate tests, compare time series, etc.
 * building (compiling, creating installer) - depends on language and IDE
-* distribution
+* distribution - packaging executable software in installers
 
 The development environment primarily depends on the programming language.
 A simple text editor can be used at a minimum;
 however, an advanced text editor or IDE can provide features such as integration with Git,
-code completion, error checking, debugging, etc.
-For example, for Java (TSTool, StateDMI, StateView, StateMod GUI), popular IDEs are
-[Eclipse](https://www.eclipse.org/),
-[NetBeans](https://netbeans.org/),
-and [IntelliJ](https://www.jetbrains.com/idea/), and others.
-For Fortran, options include
-[Eclipse Photran](https://www.eclipse.org/photran/) and
+code completion, code editing across the project, error checking, debugging, etc.
+For example, for Java programs (TSTool, StateDMI, StateView, StateMod GUI), the [Eclipse](https://www.eclipse.org/) IDE
+has been used.
+For Fortran programs (StateCU and StateMod), a text editor has typically been used and IDE options include
+[Eclipse Photran](https://www.eclipse.org/photran/),
 [CodeBlocks](http://www.codeblocks.org/), and others.
-
-For OpenCDSS, Eclipse is used for Java programs because it has been used for many years.
 
 StateCU and StateMod development has traditionally used text editors.
 Eclipse Photran was configured in the StateMod development environment but has not been
@@ -36,7 +42,8 @@ files that belong to the project.
 These project files are specific to the IDE and different developers may want to use different tools,
 each with different IDE-specific project files.
 
-One approach is to allow such files to be saved in the repository to facilitate efficiency between developers.
+One approach is to allow such files to be saved in the repository to facilitate efficiency of setting up new
+development environments.
 A new developer can clone the code repository and begin using the IDE without setting up a project.
 This works as long as the files are not dynamic,
 in which case each developer's actions could result in saving files to the repository and flip-flopping
@@ -45,7 +52,7 @@ Saving IDE project files in the repository may make sense for developers that ar
 
 Another approach is to omit IDE-specific files from the repository and require each developer
 to set up the project themselves.  This is a common approach but requires that the software developer
-have enough skills do do the project setup (which may be an issue).
+have enough skills to do the project setup (which may be an issue).
 Documentation needs to be provided to explain this approach.
 
 The OpenCDSS projects currently tend towards the first approach (save IDE project files in repository)
@@ -53,7 +60,16 @@ because a specific IDE is selected for development (Eclipse for Java, Eclipse Ph
 However, this approach is specific to each software product and may change over time as the
 development team evolves.
 
-Another common issue is handling of code formatting, such as whether tabs have been used to format code.
+Another common issue is how to format code, such as whether tabs have been used to format code.
 The typical standard is to avoid using tabs and instead use spaces, to ensure that there is no
 ambiguity in formatting.  However, updating old code and enforcing this standard takes some care.
 Such issues will be addressed over time as code is reviewed and updated.
+
+## Development Environment Documentation ##
+
+Each OpenCDSS software project includes developer documentation.
+At a minimum, the main `README.md` file in the repository will explain the project organization and how to get started.
+More complex software projects have more complex developer documentation.
+New developers should consult the developer documentation first.
+If developer documentation is lacking, the OpenCDSS team can work to improve the documentation.
+
