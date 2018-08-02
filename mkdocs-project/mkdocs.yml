@@ -5,16 +5,19 @@
 site_name: OpenCDSS
 pages:
 - Introduction: index.md
-- License: license.md
-- Version Control: version-control.md
-- Documentation: documentation.md
-- Development Environment: dev-env.md
-- Testing: testing.md
-#- StateCU: statecu.md
-#- StateDMI: statedmi.md
-- StateMod: statemod.md
-#- StateView: stateview.md
-#- TSTool: tstool.md
+- OpenCDSS Licensing: licensing.md
+- OpenCDSS Version Control: version-control.md
+- OpenCDSS Documentation: documentation.md
+- OpenCDSS Development Environment: dev-env.md
+- OpenCDSS Testing: testing.md
+- OpenCDSS Workflow: workflow.md
+- StateCU: statecu/statecu.md
+- StateCU-GUI: statecu-gui/statecu-gui.md
+- StateDMI: statedmi/statedmi.md
+- StateMod: statemod/statemod.md
+- StateMod GUI: statemod-gui/statemod-gui.md
+- StateView: stateview/stateview.md
+- TSTool: tstool/tstool.md
 #- Resources: resources.md
 # ------- configuration properties ---------------
 # Use Material theme
@@ -26,7 +29,7 @@ theme: material
 site_description:  OpenCDSS
 site_author:  Open Water Foundation
 site_favicon:  'images/opencdss-favicon.ico'
-copyright:  State of Colorado
+copyright:  State of Colorado, Department of Natural Resources
 # Use extra CSS to customize styles, based on theme
 extra_css:
   - 'css/extra-material-theme.css'

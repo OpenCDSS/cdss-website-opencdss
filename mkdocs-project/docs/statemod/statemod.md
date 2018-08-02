@@ -4,6 +4,8 @@ StateMod is the State of Colorado's water allocation model.
 
 * [Background](#background)
 * [Product Leadership](#product-leadership)
+	+ [Software Developers](#software-developers)
+	+ [Software User Expertise](#software-user-expertise)
 * [License](#license)
 * [CDSS Web Page](#cdss-statemod-web-page)
 * [User Information](#user-information)
@@ -27,21 +29,23 @@ Input to the model consists of a river network definition,
 stations/nodes (stream gage, diversion, reservoir, wells, other),
 and data associated with stations (water rights, time series, etc.).
 Input is typically created using "Data Management Interface" (DMI) software
-including [TSTool](tstool) and [StateDMI](statedmi),
+including [TSTool](../tstool/tstool) and [StateDMI](../statemod/statedmi),
 which automate processing of "command files" to create model input files.
 
 Output from StateMod consists of large binary files with time series data,
 large text file reports, and log and check files, depending on run options.
 Binary files are often processed using TSTool.
 
-The StateMod GUI (Graphical User Interface) was developed in CRDSS but has not been well maintained.
-Modelers often prefer to use the DMIs to create input files because the approach is automated and
+The [StateMod GUI](../statemod-gui/statemod-gui) (Graphical User Interface) was developed in
+the Colordo River Decision Support System (CRDSS) project but has not been well maintained.
+Modelers often prefer to use the TSTool and StateDMI software to
+create input files because the approach is automated and
 can be repeated, whereas the GUI, if it is allowed to edit files,
 introduces changes that are not represented in the DMI command files.
 These issues could be resolved with more investment.
 
 The Open Water Foundation is advocating for maintaining StateMod datasets in GitHub
-for version control.
+for version control but this approach has not been adopted by the State.
 
 ## Product Leadership ##
 
@@ -53,7 +57,25 @@ The OpenCDSS effort has focused on putting StateMod code under version control a
 implementing an updated development environment.
 Steve Malers (Open Water Foundation) is leading this effort.
 
-The CDSS leadership team is evaluating options for long-term product team staffing.
+## Software Developers ##
+
+The State of Colorado has designated the following as product contacts for development.
+
+|**StateMod Developer** |**GitHub User**|**Comment**|
+|-----------------------|---------------|--------------------------------------------------------------------------------|
+|Ray Bennett            |Rayrbennett    |Legacy developer, typically emails changes but does not use Git/GitHub directly.|
+|Kelley Thompson (DWR)  |kelleythompson |State of Colorado lead developer for StateMod.                                  |
+|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead.                                                    |
+|Steve Malers (OWF)     |smalers        |OpenCDSS lead.                                                                  | 
+
+## Software User Expertise ##
+
+The following are expert StateMod users that are typically involved in defining software functionality and testing.
+
+|**StateMod User**       |**GitHub User**|**Comment**|
+|------------------------|---------------|--------------------------------------------------------------------------------|
+|Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
+|Kara Sobieski (WWG)     |karasobieski   |Extensive modeling experience.                                                  |
 
 ## CDSS StateMod Web Page ##
 
@@ -64,7 +86,7 @@ The CDSS web page provides access to StateMod software and model datasets:
 
 ## License ##
 
-The [license is being determined](license).
+The [license is being determined](license).  GPL 3.0 has been recommended and is being reviewed.
 
 ## User Information ##
 
@@ -89,6 +111,9 @@ and consists of approximately 250 source modules and 140,000 lines of code.
 The accepted version has been compiled using an older commercial Lahey 95 compiler,
 whereas OpenCDSS is transitioning to the open source gfortran compiler.
 
+A small project is underway to evaluate options for alternative programming languages for the next generation of StateMod.
+This is a research study and near-term changes to StateMod language are not planned.
+
 ### Documentation ###
 
 The OpenCDSS project has created
@@ -111,19 +136,19 @@ to differentiate between Lahey/gfortran, 32/64 bit, and Windows/Linux.
 
 ### Version Control ###
 
-StateMod code is housed in the following repository, hosted under the Open Water Foundation GitHub account:
+StateMod code and other electronic assets are housed in the following repositories.
+Private repositories are hosted under the Open Water Foundation GitHub account until open source license is released,
+at which time the repositories will be transferred to the OpenCDSS account:
 
-* [cdss-app-statemod-fortran](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran)
+|**Content**                     |**Repository**|**Comment**|
+|--------------------------------|--------------|-----------|
+|Software code                   |[cdss-app-statemod-fortran](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran)|Private until released with public license.|
+|Automated tests                 |[cdss-app-statemod-fortran-test](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran-test)|Envisioned, need to move to OpenCDSS on GitHub.|
+|Developer documentation (MkDocs)|[cdss-app-statemod-fortran-doc-dev](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran-doc-dev)|Need to move to OpenCDSS on GitHub.|
+|User documentation (MkDocs)     |[cdss-app-statemod-fortran-doc-user](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran-doc-user)|Envisioned, need to outline and move to OpenCDSS on GitHub.|
 
-StateMod code should be updated using a "feature branch" approach:
-
-* The `master` branch is the working version and Git branches are created for features/bugs.
-* Branches should use names such as `1-bug-topic` and `2-feature-topic` where the number
-corresponds to an issue entered in the GitHub issues.
-* Testing should occur locally on the branch to confirm functionality before merging to the `master`.
-* Merge with `git merge --no-ff branch-name` to preserve commit history.
-This will be evaluated once it is known that the development team has sufficient Git skills.
-* Tags and long-term branches are used to indicate release versions.
+StateMod software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow)
+and StateMod developer documentation.
 
 ### Testing ###
 
