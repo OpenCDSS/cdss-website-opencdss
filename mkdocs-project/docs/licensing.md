@@ -44,7 +44,7 @@ software component licenses.  Assuming that GPL 3.0 is selected, implementation 
 include the following:
 
 1. Indicate the license in each GitHub repository by including a GPL 3.0 LICENSE file with standard language.
-2. Add a short license statement to the top of each source file, referencing GPL 3.0 and he repository location.
+2. Add a short license statement to the top of each source file, referencing GPL 3.0 and the repository location.
 3. Add a short license statement to the "About" dialog for programs with graphical user interfaces.
 4. Implement Contributor License Agreement protocol for new contributions.
 
@@ -63,7 +63,7 @@ Transition to open source projects involves two main steps:
 
 Copyright assignment is an agreement between a party and the State of Colorado to confirm assignment of the copyright (ownership)
 of software to the State.  This ensures that original developers of the software, such as contractors,
-cannot claim ownership if the products later and deny the State from access to code and other deliverables.
+cannot claim ownership of the products later and deny the State from access to code and other deliverables.
 State of Colorado contracts typically have language that indicates that project deliverables will be owned by the State.
 However, the language has changed over time and older contracts did not consider IP in detail that is needed.
 To ensure that there is no confusion, early developers of CDSS software have been asked to sign agreements
@@ -76,7 +76,7 @@ project deliverables.
 
 A Contributor License Agreement (CLA) is an agreement between a software contributor and the copyright owner
 (State of Colorado) that indicates that the contributor understands that they are contributing to the project.
-OpenCDSS is implementing a CLA consistent with other open source projects, which will allow he contribution to
+OpenCDSS is implementing a CLA consistent with other open source projects, which will allow the contribution to
 be used in open source projects as well as be used by the contributor as they see fit,
 thereby providing flexibility in use.
 
