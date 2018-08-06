@@ -45,30 +45,26 @@ the developer team can redirect the issues to other repositories if necessary.
 
 The ability to fully define an issue falls on a spectrum based on the level of access to the repository.
 
-* Someone without a GitHub account (or with an account but is not logged into the account) cannot define an issue
+* **Someone without a GitHub account (or with an account but is not logged into the account)** cannot define an issue
 using the GitHub issues page on the repository.
 Attempting to do so will display a popup asking to sign up for an account.
 The person can therefore sign into their GitHub account (if they have one), sign up for a new free account,
 or submit the issue using the [DNR_OpenCDSS email account](mailto:DNR_OpenCDSS@state.co.us)
 email account (which will require State of Colorado staff to enter the issue).
 
-* Someone with a GitHub account (and who is logged into that account) can define the issue title and description,
+* **Someone with a GitHub account (and who is logged into that account)** can define the issue title and description,
 add comments (with attachments), and can close the issue.  The person's GitHub identifier is associated with the issue.
 This person cannot add issue details as described in the next level.
 
-* Someone with permissions to write to the repository can specify additional issue
+* **Someone with a GitHub account and permissions to write to the repository** can specify additional issue
 data including ***Labels***, which indicate whether a bug, question, enhancement, etc.
 Issue details will be filled out by the development team in the next steps.
 
-**The Open Water Foundation is evaluating using GitHub "projects", where multiple repositories are associated with
-a project.  For example, the StateMod project would group the code, testing, and documentation repositories.**
-
-**The Open Water Foundation is evaluating adding additional custom labels to indicate priority such
-`trivial`, `minor`, `major`, `critical`, `blocker` because the default GitHub issues do not have labels
-that directly indicate priority.**
-
-**Question - will this approach work to include issue editors that are not reasonably fluent in GitHub?  Ideally, State of
-Colorado staff that are not software developers can comment on issues but not make edits to code and other files.**
+**Question - will this approach work for GitHub users that need to edit all aspects of
+issues but are not skilled in Git/GitHub functionality?  Ideally, State of
+Colorado staff and consultants that are not software developers
+but provide key input on bugs and enhancements for software projects
+can comment on issues but not make edits to code and other files.**
 
 ## 2. Perform In-State Triage ##
 
@@ -94,7 +90,7 @@ for software product enhancements.  The following are potential issue evaluation
 	+ Is the issue in the State's plan for the future?
 	+ Is funding and human resources available on a project?
 	+ Assign an initial priority label to the issue using custom issue labels
-	(`trivial`, `minor`, `major`, `critical`, `blocker`)
+	(`low`, `medium`, `high`, `critical`)
 
 Possible actions include:
 

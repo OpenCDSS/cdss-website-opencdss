@@ -13,6 +13,8 @@ StateMod is the State of Colorado's water allocation model.
 	+ [Documentation](#documentation)
 	+ [Development Environment](#development-environment)
 	+ [Version Control](#version-control)
+	+ [Adding an Issue](#adding-an-issue)
+	+ [Adding an Issue](#adding-an-issue)
 	+ [Testing](#testing)
 
 ------------------
@@ -150,6 +152,29 @@ at which time the repositories will be transferred to the OpenCDSS account:
 StateMod software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow)
 and StateMod developer documentation.
 
+### Adding an Issue ###
+
+The GitHub issues tool is how developers track issues and communicate on progress.
+For an overview of using GitHub issues, see ["Mastering Issues"](https://guides.github.com/features/issues/).
+The following general procedure should be to used add an issue (bug, enhancement request, question, etc.).
+
+1. Add a ***New issue*** on the [StateMod code repository issues page](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran/issues).
+	1. The issue title should short and clear, for example "Operating rule 23 breaks water balance" (which will be indicated as a `bug` below) or
+	"Need report for ABC" (which will be indicated as an `enhancement` below).
+	2. An issue template (via `.github` folder in repository) is provided with instructions on how to submit the issue.
+	The template provides default fill-in-the-blank sections that are useful for developers.
+	The template text should be edited as appropriate to explain the issue, and is then submitted.
+	Attachments can be used to provide test data or other useful information.  Use a zip file if necessary.
+	3. The issue labels should be specified, if possible (they will be specified later if not specified initially).
+	**If the issue author does not have write permissions on the repository, they will not be able to select issue labels.**
+		1. Select the issue type as `bug`, `enhancement`, or `question`.
+		2. Sect the priority as `low`, `medium`, `high`, or `critical`.
+2. A StateMod product manager lead can also then add the issue to the
+[StateMod project board](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran/projects)
+as part of overall coordination.
+
+**Need to determine how much of the repository and project board coordination occurs automatically through GitHub settings.**
+
 ### Testing ###
 
 StateMod testing has traditionally not been automated and has relied on running model datasets to confirm output.
@@ -167,9 +192,10 @@ Testing is complex due to the following issues:
 	1. This is challenging because daily models have not typically been the focus.
 
 The level of effort for the above is daunting and needs to be addressed by implementing standard
-test protocols that rely on automation.  This is in progress.
+test protocols that rely on automation.  This is in progress and is ongoing as the OpenCDSS project protocols
+are adopted by various persons that are involved with StateMod.
 
-This approach is being updated to be more rigorous and automated:
+The StateMod testing approach is being updated to be more rigorous and automated:
 
 * [cdss-app-statemod-fortran-test](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran-test)
 repository is used for tests, and is under development
