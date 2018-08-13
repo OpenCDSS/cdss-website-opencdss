@@ -4,11 +4,11 @@ This is the documentation for the OpenCDSS project,
 which is moving software in
 [Colorado's Decision Support Systems (CDSS)](http://cdss.state.co.us)
 to open source projects.
-The OpenCDSS effort seeks to change the paradigm of how CDSS software is developed, maintained and supported,
+The OpenCDSS effort seeks to change the paradigm of how CDSS software is developed, maintained, and supported,
 in order to encourage a larger software developer and user community to engage
 in transparent and sustainable software projects.
 
-This documentation page includes the following sections:
+This introduction page includes the following sections:
 
 * [How to Use this Documentation](#how-to-use-this-documentation) - guidance and list of main documentation sections
 * [Colorado's Decision Support Systems](#colorados-decision-support-systems) - the system under which the software is maintained
@@ -55,7 +55,7 @@ such as implementing version control with Git/GitHub and modernizing the develop
 
 ## Project Leadership ##
 
-OpenCDSS leadership is comprised of consultants and State of Colorado agency staff.
+OpenCDSS leadership is comprised of State of Colorado agency staff and consultants.
 Each software project also has a State of Colorado contact, as indicated on the individual product pages,
 and is supported by software developers that have experience with each tool.
 Leadership roles are expected to change as the OpenCDSS effort matures and more people become involved
@@ -93,7 +93,7 @@ each product will be supported and enhanced based on the team that is focusing o
 
 The OpenCDSS project grew out of a recognition that the traditional approach to developing and maintaining
 CDSS software tools was not sustainable.
-Motivation for change was provided by the economic recession in late 2000s and loss of technical staff at State
+Motivation for change was provided by loss of technical staff at State
 agencies and consulting companies.  Key concerns included:
 
 1. How will knowledge about CDSS tools be retained?
@@ -143,15 +143,16 @@ Significant progress has been made in many areas, including the following (see i
 	+ Moving documentation to online format over time (legacy Word/PDF if not migrated).
 	+ Documentation versions are maintained in GitHub.
 * Implementing tools for testing [see OpenCDSS Testing](testing):
-	+ Being implemented at various levels for different tools.
+	+ Being implemented at various levels for different software.
 	+ This is an ongoing activity given the complexity of software functionality.
 
 There is also a need to integrate OpenCDSS with the core CDSS, such as the State's CDSS website.
 This will involve activities such as the following:
 
 1. Link CDSS website to software project GitHub repositories and documentation such as this documentation.
-2. Establish a workflow whereby software product releases are made available on the CDSS website.
-3. Establishing backlog of software work tasks, such as via the GitHub issues page.
+2. Establish a workflow whereby software enhancements and issues are identified and implemented and
+product releases are made available on the CDSS website.
+3. Establishing a backlog of software work tasks, such as via the GitHub issues page.
 4. Prioritizing OpenCDSS/CDSS software enhancements across projects using various funding sources,
 contract vehicles, and human resources.
 
@@ -180,7 +181,7 @@ Some OpenCDSS budget is being used to train key personnel how to work in the new
 However, the reality is that OpenCDSS budget cannot train everyone that is interested in contributing to software.
 Like many other open source projects, the burden of learning software development tools will fall on individuals
 or other projects, with the expectation that software developers have a reasonable skill level
-to be competent.
+to be able to contribute.
 
 A compromise is to use some OpenCDSS resources on development environment documentation so that new developers
 have context and can learn from documentation prepared by previous developers.
