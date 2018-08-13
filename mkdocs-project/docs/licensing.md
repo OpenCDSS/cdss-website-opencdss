@@ -15,7 +15,7 @@ This page discusses licensing of CDSS software consistent with OpenCDSS.
 Software development for State of Colorado software tools has traditionally not been managed as open source projects.
 Software is often developed by consultants in order to "get the work done",
 including Excel spreadsheets and one-off deliverables.
-CDSS software tools have specific niche purposes and will generally not be distributed as a mass-market software.
+CDSS software tools have specific niche purposes and will generally not be distributed as mass-market software.
 Consequently, a simple disclaimer has traditionally been attached to software.
 This approach is inadequate, especially for more significant software tools,
 because it does not clearly spell out the terms of use for software code.
@@ -25,8 +25,7 @@ including assigning open source licenses to each product.
 The license selection is based on a number of criteria that are important to the State of Colorado, including:
 
 1. Ensure that the software remains open source consistent with the spirit of the open source ethic.
-2. Avoid the situation where the State (and taxpayers) pay for software development and are later prevented from
-using the software or accessing code that was paid for.
+2. Allow the State of Colorado to retain oversight of the software.
 3. Encourage collaboration and use by a wide array of entities.
 4. Consider license compatibility to ensure that use and integration constraints are not placed on software.
 
