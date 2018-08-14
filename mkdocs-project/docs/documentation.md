@@ -74,7 +74,7 @@ a software source code repository:
 
 Sometimes it makes sense to use a separate repository for documentation,
 for example when the software development environment is complicated or using a separate repository will encourage
-more review and contributions.  In this case, the repository name and top-level folder convention is similar to:
+more review and contributions. In this case, the repository name and top-level folder convention is similar to:
 
 * `someproduct-doc-dev/mkdocs-project` - indicates developer documentation as a MkDocs project
 * `someproduct-doc-user/mkdocs-project` - indicates user documentation as a MkDocs project
