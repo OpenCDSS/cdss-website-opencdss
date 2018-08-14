@@ -55,7 +55,7 @@ who are new to version control tools and Git.
 The following Git training documentation applies across OpenCDSS software and will be enhanced over time as
 experienced is gained from OpenCDSS software teams.
 Git is an acquired skill and requires ongoing use and continued learning based on first-hand experience,
-in particular to deal with branching and merging on teams.
+in particular to deal with branching and merging with teams.
 
 * [CDSS / Learn Git](http://learn.openwaterfoundation.org/cdss-learn-git/)
 
