@@ -51,7 +51,7 @@ file content between developers.
 Saving IDE project files in the repository may make sense for developers that are not skilled with the development environment.
 
 Another approach is to omit IDE-specific files from the repository and require each developer
-to set up the project themselves.  This is a common approach but requires that the software developer
+to set up the project themselves. This is a common approach but requires that the software developer
 have enough skills to do the project setup (which may be an issue).
 Documentation needs to be provided to explain this approach.
 
@@ -62,7 +62,7 @@ development team evolves.
 
 Another common issue is how to format code, such as whether tabs have been used to format code.
 The typical standard is to avoid using tabs and instead use spaces, to ensure that there is no
-ambiguity in formatting.  However, updating old code and enforcing this standard takes some care.
+ambiguity in formatting. However, updating old code and enforcing this standard takes some care.
 Such issues will be addressed over time as code is reviewed and updated.
 
 ## Development Environment Documentation ##
