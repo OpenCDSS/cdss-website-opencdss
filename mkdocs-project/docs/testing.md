@@ -17,8 +17,8 @@ hundreds of commands.
 
 Automated testing for CDSS software varies by product, and is discussed in each product's developer documentation.
 It is expected that implementing automated testing for CDSS tools will continue to be a significant effort,
-especially for StateMod, because of the need to test individual features,
-and software when run on larger input datasets, which demonstrate interaction of components.
+especially for StateMod. StateMod requires testing of many individual features and receives large input 
+datasets, resulting in complex interactions and outputs.
 
 ## Automated Testing Frameworks ##
 
