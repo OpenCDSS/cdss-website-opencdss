@@ -134,8 +134,7 @@ to help overall management activities connect the dots between issues, projects,
 
 The initial triage from the previous steps will have connected the issue with one or more persons on the development
 team, using the GitHub issues ***assignees***.
-However, actually working on the issue will occur spanning "immediate action" through "after some wait period"
-through "good idea but no idea when we can get to this".
+However, actually working on the issue may occur immediately or after some period of time.
 A wait period may be due to lack of funding or human resources, because other issues need to be addressed first,
 or other reasons.
 
@@ -159,11 +158,10 @@ Commit messages can provide more detail on the specific changes.
 
 Once the feature branch is created, the software developer will make software changes,
 test the software (ideally by implementing automated tests), and update documentation.
-Commits to the branch can occur as often as it makes sense and should follow Git best practices,
-and experience learned by working with Git.
+Commits to the branch can occur as often as it makes sense and should follow Git best practices.
 
 **Testing for multiple configurations such as different Windows and Linux operating systems, 32-bit, 64-bit
-can be resource-intensive.  This is an area that will continue to require resources
+can be resource-intensive. This is an area that will continue to require resources
 to implement effective testing frameworks, with each program having specific testing approach that
 makes sense for the program.**
 
@@ -193,7 +191,7 @@ Periodically, the software will be released using the software product's build p
 In this case testing will occur in the operational environment.
 4. Tag involved repositories with the software version to facilitate accessing files for a specific version later
 (for example use `git tag -a StateMod_15.00.14`).
-5. Publish the installer, such as on OWF or CDSS website.
+5. Publish the installer on CDSS website.
 Ideally users will be able to download different versions of the software installer and view release notes
 that correspond to the versions.
 
