@@ -22,42 +22,41 @@ the requirements of the State.
 A practical consideration is that if someone requests an enhancement to a CDSS software tool,
 State funding and project resources will not automatically be directed to that request.
 Instead, State funding will focus on State priorities and other bug fixes and enhancements will generally need to be
-funded by other entities such as projects, grants, or volunteer efforts.
+funded from other sources such as projects, grants, or volunteer efforts.
 In any case, software developers that commit to OpenCDSS projects will need to demonstrate knowledge of the products
 and will need to work with developers that have commit privileges.
 
 The following sections describe the general workflow that will be utilized to meet State of Colorado goals.
-**This workflow is proposed and is being phased in.  The workflow will be evaluated and adjusted based on actual use.
+**This workflow is proposed and is being phased in. The workflow will be evaluated and adjusted based on actual use.
 Ideally the workflow is fairly organic and natural and does not become a bottleneck to making decisions and getting work done.**
 
 ## 1. Enter Issue on GitHub Issues Page ##
 
 Bugs, suggestions, and feature requests should be entered using the GitHub issues page.
-This will require that the GitHub repository URLs are prominently featured in documentation and "Help About"
+This will require that the GitHub repository URLs are prominently featured in documentation and "Help" and "About"
 dialogs for software, which will be consistent with open source licenses indicating the code location.
 
 Issues should be entered for the appropriate repository.
 For example, TSTool uses multiple repositories, including core libraries, libraries for specific data sources,
-testing repository, and documentation repositories.
+a testing repository, and a documentation repository.
 If the issue is specific to a repository, the issue can be entered for that repository.
 However, it may be easiest in most cases to enter the issue on the application's main repository and
 the developer team can redirect the issues to other repositories if necessary.
 
-The ability to fully define an issue falls on a spectrum based on the level of access to the repository.
-
 * **Someone without a GitHub account (or with an account but is not logged into the account)** cannot define an issue
 using the GitHub issues page on the repository.
 Attempting to do so will display a popup asking to sign up for an account.
-The person can therefore sign into their GitHub account (if they have one), sign up for a new free account,
+The person can sign into their GitHub account (if they have one), sign up for a new free account,
 or submit the issue using the [DNR_OpenCDSS email account](mailto:DNR_OpenCDSS@state.co.us)
-email account (which will require State of Colorado staff to enter the issue).
+email account (which will prompt State of Colorado staff to enter the issue).
 
 * **Someone with a GitHub account (and who is logged into that account)** can define the issue title and description,
 add comments (with attachments), and can close the issue.  The person's GitHub identifier is associated with the issue.
 This person cannot add issue details as described in the next level.
 
 * **Someone with a GitHub account and permissions to write to the repository** can specify additional issue
-data including ***Labels***, which indicate whether a bug, question, enhancement, etc.
+data including ***Labels***, which indicate whether the issue is a bug, question, enhancement, etc. an define the
+priority of the issue.
 Issue details will be filled out by the development team in the next steps.
 
 **Question - will this approach work for GitHub users that need to edit all aspects of
