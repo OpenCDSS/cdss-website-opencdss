@@ -55,7 +55,7 @@ add comments (with attachments), and can close the issue.  The person's GitHub i
 This person cannot add issue details as described in the next level.
 
 * **Someone with a GitHub account and permissions to write to the repository** can specify additional issue
-data including ***Labels***, which indicate whether the issue is a bug, question, enhancement, etc. an define the
+data including ***Labels***, which indicate whether the issue is a bug, question, enhancement, etc. and define the
 priority of the issue.
 Issue details will be filled out by the development team in the next steps.
 
@@ -72,7 +72,7 @@ When an issue is added to the GitHub repository, repository maintainers with edi
 automatically be notified with an email.
 The State CDSS leadership team member associated with the product will then perform initial triage
 in order to prioritize issues within the State's interests, considering the State's existing priorities
-for software product enhancements.  The following are potential issue evaluation criteria and actions.
+for software product enhancements. The following are potential issue evaluation criteria and actions:
 
 1. Review issue description.
 	+ Is the description clear?
@@ -80,14 +80,14 @@ for software product enhancements.  The following are potential issue evaluation
 	+ Assign an initial label to the issue using standard GitHub labels (`bug`, `duplicate`, `enhancement`,
 	`help wanted`, `invalid`, `question`, `wontfix`)
 2. Review issue relevance to State.
-	+ Is the issue already included in State plans
+	+ Is the issue already included in State plans?
 	(**Need to discuss seeding the GitHub issues with existing planning "to do" list.**)
 	+ Will addressing the issue have positive or negative effects (risk) for the State and
 	its use of the software?
 3. Make a determination as to issue priority and whether to direct State resources to the issue.
 	+ Is the issue already in the State's plan for software enhancements on existing/ongoing projects?
 	+ Is the issue in the State's plan for the future?
-	+ Is funding and human resources available on a project?
+	+ Are funding and human resources available on a project?
 	+ Assign an initial priority label to the issue using custom issue labels
 	(`low`, `medium`, `high`, `critical`)
 
