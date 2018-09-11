@@ -7,13 +7,12 @@ StateMod is the State of Colorado's water allocation model.
 	+ [Software Developers](#software-developers)
 	+ [Software User Expertise](#software-user-expertise)
 * [License](#license)
-* [CDSS Web Page](#cdss-statemod-web-page)
+* [CDSS Web Page](#cdss-web-page)
 * [User Information](#user-information)
 * [Developer Information](#developer-information)
 	+ [Documentation](#documentation)
 	+ [Development Environment](#development-environment)
 	+ [Version Control](#version-control)
-	+ [Adding an Issue](#adding-an-issue)
 	+ [Adding an Issue](#adding-an-issue)
 	+ [Testing](#testing)
 
@@ -31,7 +30,7 @@ Input to the model consists of a river network definition,
 stations/nodes (stream gage, diversion, reservoir, wells, other),
 and data associated with stations (water rights, time series, etc.).
 Input is typically created using "Data Management Interface" (DMI) software
-including [TSTool](../tstool/tstool) and [StateDMI](../statemod/statedmi),
+including [TSTool](../tstool/tstool) and [StateDMI](../statedmi/statedmi),
 which automate processing of "command files" to create model input files.
 
 Output from StateMod consists of large binary files with time series data,
@@ -39,7 +38,7 @@ large text file reports, and log and check files, depending on run options.
 Binary files are often processed using TSTool.
 
 The [StateMod GUI](../statemod-gui/statemod-gui) (Graphical User Interface) was developed in
-the Colordo River Decision Support System (CRDSS) project but has not been well maintained.
+the Colorado River Decision Support System (CRDSS) project but has not been well maintained.
 Modelers often prefer to use the TSTool and StateDMI software to
 create input files because the approach is automated and
 can be repeated, whereas the GUI, if it is allowed to edit files,
@@ -63,28 +62,28 @@ Steve Malers (Open Water Foundation) is leading this effort.
 
 The State of Colorado has designated the following as product contacts for development.
 
-|**StateMod Developer** |**GitHub User**|**Comment**|
+|**Person**             |**GitHub User**|**Role/Comment**|
 |-----------------------|---------------|--------------------------------------------------------------------------------|
 |Ray Bennett            |Rayrbennett    |Legacy developer, typically emails changes but does not use Git/GitHub directly.|
 |Kelley Thompson (DWR)  |kelleythompson |State of Colorado lead developer for StateMod.                                  |
 |Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead.                                                    |
-|Steve Malers (OWF)     |smalers        |OpenCDSS lead.                                                                  | 
+|Steve Malers (OWF)     |smalers        |OpenCDSS lead, facilitating implementation of open source project.              | 
 
 ## Software User Expertise ##
 
-The following are expert StateMod users that are typically involved in defining software functionality and testing.
+The following are experienced StateMod users that are typically involved in defining software functionality and testing.
 
-|**StateMod User**       |**GitHub User**|**Comment**|
+|**Person**              |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
 |Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
 |Kara Sobieski (WWG)     |karasobieski   |Extensive modeling experience.                                                  |
 
-## CDSS StateMod Web Page ##
+## CDSS Web Page ##
 
 The CDSS web page provides access to StateMod software and model datasets:
 
-* [StateMod Software](http://cdss.state.co.us/software/Pages/StateMod.aspx)
-* [StateMod Datasets](http://cdss.state.co.us/Modeling/Pages/SurfaceWaterStateMod.aspx)
+* [StateMod Software](https://www.colorado.gov/pacific/cdss/statemod)
+* [StateMod Datasets](https://www.colorado.gov/pacific/cdss/surface-water-statemod)
 
 ## License ##
 
@@ -102,9 +101,11 @@ view the results, such as on the web, presents technical challenges.
 Information for StateMod users consists of:
 
 * Model datasets have documentation - see the
-[CDSS website](http://cdss.state.co.us/Modeling/Pages/SurfaceWaterStateMod.aspx) for model datasets and documentation.
-* The StateMod User's Manual is available on the [CDSS StateMod page](http://cdss.state.co.us/software/Pages/StateMod.aspx).
+[CDSS website](https://www.colorado.gov/pacific/cdss/modeling-dataset-documentation) for model datasets and documentation.
+* The StateMod User's Manual is available on the [CDSS StateMod page](https://www.colorado.gov/pacific/cdss/software-documentation).
 * There is a need for user-friendly documentation, for example navigable documentation such as this documentation.
+[Prototype StateMod online documentation](http://learn.openwaterfoundation.org/cdss-app-statemod-fortran-doc-user/)
+has been created and may be enhanced.
 
 ## Developer Information ##
 
@@ -118,9 +119,8 @@ This is a research study and near-term changes to StateMod language are not plan
 
 ### Documentation ###
 
-The OpenCDSS project has created
-[Developer Documentation](http://learn.openwaterfoundation.org/cdss-learn-statemod-dev/),
-which should be followed by all developers.
+[Developer Documentation](http://learn.openwaterfoundation.org/cdss-learn-statemod-dev/) has been created and
+should be followed by all developers.
 
 ### Development Environment ###
 
@@ -149,7 +149,7 @@ at which time the repositories will be transferred to the OpenCDSS account:
 |Developer documentation (MkDocs)|[cdss-app-statemod-fortran-doc-dev](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran-doc-dev)|Need to move to OpenCDSS on GitHub.|
 |User documentation (MkDocs)     |[cdss-app-statemod-fortran-doc-user](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran-doc-user)|Envisioned, need to outline and move to OpenCDSS on GitHub.|
 
-StateMod software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow)
+StateMod software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow/workflow)
 and StateMod developer documentation.
 
 ### Adding an Issue ###
@@ -165,10 +165,14 @@ The following general procedure should be to used add an issue (bug, enhancement
 	The template provides default fill-in-the-blank sections that are useful for developers.
 	The template text should be edited as appropriate to explain the issue, and is then submitted.
 	Attachments can be used to provide test data or other useful information.  Use a zip file if necessary.
-	3. The issue labels should be specified, if possible (they will be specified later if not specified initially).
+	3. The issue labels should be specified as completely possible.
+	Labels can be adjusted later as necessary.
+	See the [OpenCDSS Version Control / GitHub Repository Issues](../version-control/version-control#github-repository-issues) guidelines.
 	**If the issue author does not have write permissions on the repository, they will not be able to select issue labels.**
 		1. Select the issue type as `bug`, `enhancement`, or `question`.
-		2. Sect the priority as `low`, `medium`, `high`, or `critical`.
+		2. Select the issue priority as `low`, `medium`, `high`, or `critical`.
+		3. Select the issue size as `XS`, `S`, `M`, `L`, or `XS`.
+		Note that these are relative sizes and not intended to be detailed hourly estimates.
 2. A StateMod product manager lead can also then add the issue to the
 [StateMod project board](https://github.com/OpenWaterFoundation/cdss-app-statemod-fortran/projects)
 as part of overall coordination.

@@ -37,11 +37,13 @@ This will require that the GitHub repository URLs are prominently featured in do
 dialogs for software, which will be consistent with open source licenses indicating the code location.
 
 Issues should be entered for the appropriate repository.
-For example, TSTool uses multiple repositories, including core libraries, libraries for specific data sources,
-a testing repository, and a documentation repository.
+For example, applications typically have a main code repository and may also may also have
+related repositories such as for libraries, documentation, and tests.
 If the issue is specific to a repository, the issue can be entered for that repository.
 However, it may be easiest in most cases to enter the issue on the application's main repository and
 the developer team can redirect the issues to other repositories if necessary.
+
+The following cases will constrain one's ability to add and edit an issue:
 
 * **Someone without a GitHub account (or with an account but is not logged into the account)** cannot define an issue
 using the GitHub issues page on the repository.
@@ -90,6 +92,9 @@ for software product enhancements. The following are potential issue evaluation 
 	+ Are funding and human resources available on a project?
 	+ Assign an initial priority label to the issue using custom issue labels
 	(`low`, `medium`, `high`, `critical`)
+	+ If possible, assign an initial size to indicate size label to indicate level of effort
+	(`XS`, `S`, `M`, `L`, `XL`), although it may be difficult at this state to assign this label,
+	in which case the label will be added later by a specific developer
 
 Possible actions include:
 
