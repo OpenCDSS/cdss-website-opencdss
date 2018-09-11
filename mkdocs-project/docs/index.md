@@ -124,10 +124,10 @@ StateCU and StateMod.
 
 Significant progress has been made in many areas, including the following (see individual software pages for more information):
 
-* Determining software licenses [see OpenCDSS Licensing](licensing):
+* Determining software licenses [see OpenCDSS Licensing](../licensing/licensing):
 	+ As of March 2018, recommendations are under review.
 	+ GPL 3.0 has been recommended for most tools.
-* Placing software under version control [see OpenCDSS Version Control](version-control):
+* Placing software under version control [see OpenCDSS Version Control](../version-control/version-control):
 	+ Initial efforts are complete and are being used in development.
 	+ The State has established the [OpenCDSS GitHub account](https://github.com/OpenCDSS) to house repositories.
 	+ The above only provides access to public repositories and until open sources licenses are officially
@@ -135,14 +135,14 @@ Significant progress has been made in many areas, including the following (see i
 	+ Some CDSS public repositories are also housed under the
 	[Open Water Foundation GitHub account](https://github.com/OpenWaterFoundation)
 	but are being transitioned to the OpenCDSS GitHub account.
-* Implementing new development environments [see OpenCDSS Development Environment](dev-env):
+* Implementing new development environments [see OpenCDSS Development Environment](../dev-env/dev-env):
 	+ Phasing in for each tool.
 	+ Integrating with version control.
 	+ Implementing standard workflows for reporting issues and responding with code changes.
-* Implementing tools for documentation [see OpenCDSS Documentation](documentation):
+* Implementing tools for documentation [see OpenCDSS Documentation](../documentation/documentation):
 	+ Moving documentation to online format over time (legacy Word/PDF if not migrated).
 	+ Documentation versions are maintained in GitHub.
-* Implementing tools for testing [see OpenCDSS Testing](testing):
+* Implementing tools for testing [see OpenCDSS Testing](../testing/testing):
 	+ Being implemented at various levels for different software.
 	+ This is an ongoing activity given the complexity of software functionality.
 

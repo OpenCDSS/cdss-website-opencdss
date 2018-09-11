@@ -5,12 +5,12 @@
 site_name: OpenCDSS
 pages:
 - Introduction: index.md
-- OpenCDSS Licensing: licensing.md
-- OpenCDSS Version Control: version-control.md
-- OpenCDSS Documentation: documentation.md
-- OpenCDSS Development Environment: dev-env.md
-- OpenCDSS Testing: testing.md
-- OpenCDSS Workflow: workflow.md
+- OpenCDSS Licensing: licensing/licensing.md
+- OpenCDSS Version Control: version-control/version-control.md
+- OpenCDSS Documentation: documentation/documentation.md
+- OpenCDSS Development Environment: dev-env/dev-env.md
+- OpenCDSS Testing: testing/testing.md
+- OpenCDSS Workflow: workflow/workflow.md
 - StateCU: statecu/statecu.md
 - StateCU-GUI: statecu-gui/statecu-gui.md
 - StateDMI: statedmi/statedmi.md
