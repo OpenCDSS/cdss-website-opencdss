@@ -1,6 +1,9 @@
 # OpenCDSS / TSTool #
 
-TSTool software is used to automate processing of time series and other data.
+TSTool software is used to automate processing of time series and other data
+and is used to create input files for
+[StateCU](../statecu/statecu) and
+[StateMod](../statemod/statemod).
 
 * [Background](#background)
 * [Product Leadership](#product-leadership)
