@@ -1,11 +1,10 @@
 # cdss-website-opencdss #
 
 This repository contains the content for the OpenCDSS project website,
-which is the umbrella project that is moving
-[Colorado's Decision Support Systems (CDSS)](http://cdss.state.co.us) software to open source projects.
+which is the umbrella project for open source
+[Colorado's Decision Support Systems (CDSS)](http://cdss.state.co.us) software.
 
-See the deployed website:  [CDSS / OpenCDSS](http://learn.openwaterfoundation.org/cdss-website-opencdss/)
-(currently hosted at the Open Water Foundation but needs to be hosted on a CDSS website).
+See the [deployed OpenCDSS website](http://opencdss.state.co.us/opencdss/).
 
 * [Repository Contents](#repository-contents)
 * [Development Environment](#development-environment)
@@ -65,15 +64,13 @@ The above process could be adapted to use a Windows batch files if necessary.
 
 ## Deploying the Website ##
 
-The website is deployed by running the Cygwin/Bash script `build-util/copy-to-owf-amazon-s3.sh`,
-which copies the `mkdocs-project/site` folder to the [deployed website location](http://learn.openwaterfoundation.org/cdss-website-opencdss/)
+The website is deployed by running the script `build-util/copy-to-co-dnr-gcp.sh` in Git Bash,
+which copies the `mkdocs-project/site` folder to the [deployed website location](http://opencdss.state.co.us/opencdss/)
 as a static website.
-The deployment process will be changed when the State has identified where the documentation can live within the CDSS website.
 
 ## License ##
 
-The license for this documentation is being determined.
-The Open Water Foundation consulting team has recommended using the [Creative Commons Attribution 2-0 Generic (CC BY 2.0) License](https://creativecommons.org/licenses/by/2.0/).
+The license for this documentation is the [Creative Commons CC-BY 4.0 license](LICENSE.md).
 
 ## Contributing ##
 
@@ -91,8 +88,9 @@ This repository is maintained by the OpenCDSS team.
 
 ## Release Notes ##
 
-The following release notes indicate the update history for documentation, with GitHub repository issue indicated,
-if applicable (links to issues via README.md are not cleanly supported by GitHub so use the repository issues page to find).
+The following are major updates for the documentation.
+See the GitHub issues for details.
 
-* 2018-07-31 - update to current status with more guidance for participants
-* 2018-03-12 - initial version
+* 2019-04-27 - Update to use opencdss.state.co.us.
+* 2018-07-31 - Update to current status with more guidance for participants.
+* 2018-03-12 - Initial version.

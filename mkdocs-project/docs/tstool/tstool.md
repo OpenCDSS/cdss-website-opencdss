@@ -10,7 +10,8 @@ and is used to create input files for
 	+ [Software Developers](#software-developers)
 	+ [Software User Expertise](#software-user-expertise)
 * [License](#license)
-* [CDSS Web Page](#cdss-web-page)
+* [OpenCDSS Web Page](#opencdss-web-page) - current and archived downloads
+* [CDSS Web Page](#cdss-web-page) - versions used in CDSS
 * [User Information](#user-information)
 * [Developer Information](#developer-information)
 	+ [Documentation](#documentation)
@@ -27,7 +28,7 @@ TSTool Data Management Interface (DMI) software automates processing time series
 and is used in CDSS to prepare input files for StateCU and StateMod models
 and process output into output product files.
 TSTool can also be used independent of CDSS models and provides features to read data from
-various databases, web services, and file formats.
+various databases, web services, and file formats, and automate processes.
 
 ## Product Leadership ##
 
@@ -56,15 +57,23 @@ The following are experienced TSTool users that are typically involved in defini
 |Kara Sobieski (WWG)     |karasobieski   |Extensive experience - also others at WWG.                                      |
 |Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows.                       |
 
+## OpenCDSS Web Page ##
+
+The OpenCDSS web page provides access to TSTool software, documentation, and tests.
+This website also provides access to the development version of the software.
+
+* [TSTool on OpenCDSS](http://opencdss.state.co.us/tstool/)
+
 ## CDSS Web Page ##
 
-The CDSS web page provides access to TSTool software and model datasets:
+The CDSS web page provides access to TSTool software and model datasets,
+in particular versions that are used in State of Colorado projects.
 
-* [TSTool Software](https://www.colorado.gov/pacific/cdss/tstool)
+* [TSTool on CDSS](https://www.colorado.gov/pacific/cdss/tstool)
 
 ## License ##
 
-The [license is being determined](license).  GPL 3.0 has been recommended and is being reviewed.
+The software is licensed using [GPL v3+ license](https://github.com/OpenCDSS/cdss-app-tstool-main/blob/master/LICENSE.md).
 
 ## User Information ##
 
@@ -73,47 +82,44 @@ Helpful information includes:
 
 * Model datasets have documentation about how TSTool is used - see the
 [CDSS website](https://www.colorado.gov/pacific/cdss/modeling-data) for model datasets and documentation.
-* The TSTool User Documentation is available on the [OWF / Learn page](http://learn.openwaterfoundation.org/cdss-app-tstool-doc-user/) - will
-be migrated to CDSS/OpenCDSS website.
+* See the [latest TSTool User Documentation](http://opencdss.state.co.us/tstool/latest/doc-user).
 
 ## Developer Information ##
 
 TSTool is written in Java and uses the Eclipse integrated development environment (IDE).
 TSTool is comprised of multiple software libraries, some of which are maintained as code in repositories,
 and some of which are used as third-party binary libraries.
+See the following developer resources:
 
 ### Documentation ###
 
-[Developer Documentation](http://learn.openwaterfoundation.org/cdss-app-tstool-doc-dev/)
-should be followed by all developers.
+* Latest [Developer Documentation](http://opencdss.state.co.us/tstool/latest/doc-dev/).
 
 ### Development Environment ###
 
 Compilation is via Eclipse IDE, although it should be possible to use other tools.
-See the [Developer Documentation](http://learn.openwaterfoundation.org/cdss-app-tstool-doc-dev/)
+See the [Developer Documentation](http://opencdss.state.co.us/tstool/latest/doc-dev/)
 for information about the development environment.
 Important information includes:
 
 * The current standard is to develop on Windows 10 using Eclipse.
-* Git command line tools can also be used.
+* Git Bash command line tools can also be used.
 * A new plugin capability is being developed to allow third-party components to be developed
 without changing the core TSTool software.
 
 ### Version Control ###
 
 TSTool code and other electronic assets are housed in the following repositories.
-Private repositories are hosted under the Open Water Foundation GitHub account until open source license is released,
-at which time the repositories will be transferred to the OpenCDSS account:
 
 |**Content**                     |**Repository**|**Comment**|
 |--------------------------------|--------------|-----------|
-|Main TSTool code                |[cdss-app-tstool-main](https://github.com/OpenWaterFoundation/cdss-app-tstool-main)|Private until released with public license.|
-|Library components              ||See the [main respository README](https://github.com/OpenWaterFoundation/cdss-app-tstool-main) for list.|
-|Automated tests                 |[cdss-app-tstool-test](https://github.com/OpenWaterFoundation/cdss-app-tstool-test)|Referenced by User Documentation for examples.|
-|Developer documentation (MkDocs)|[cdss-app-tstool-doc-dev](https://github.com/OpenWaterFoundation/cdss-app-tstool-doc-dev)|Need to move to OpenCDSS on GitHub.|
-|User documentation (MkDocs)     |[cdss-app-tstool-doc-user](https://github.com/OpenWaterFoundation/cdss-app-tstool-doc-user)|Need to move to OpenCDSS on GitHub.|
+|Main TSTool code                |[cdss-app-tstool-main](https://github.com/OpenCDSS/cdss-app-tstool-main)|README provides additional information.|
+|Library components              ||See the [main repository README](https://github.com/OpenCDSS/cdss-app-tstool-main) for list.|
+|Automated tests                 |[cdss-app-tstool-test](https://github.com/OpenCDSS/cdss-app-tstool-test)|Referenced by User Documentation for examples.|
+|Developer documentation (MkDocs)|[cdss-app-tstool-doc-dev](https://github.com/OpenCDSS/cdss-app-tstool-doc-dev)||
+|User documentation (MkDocs)     |[cdss-app-tstool-doc-user](https://github.com/OpenCDSS/cdss-app-tstool-doc-user)||
 
-TSTool software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow/workflow)
+TSTool software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow/workflow.md)
 and TSTool developer documentation.
 
 ### Adding an Issue ###
@@ -122,7 +128,7 @@ The GitHub issues tool is how developers track issues and communicate on progres
 For an overview of using GitHub issues, see ["Mastering Issues"](https://guides.github.com/features/issues/).
 The following general procedure should be to used add an issue (bug, enhancement request, question, etc.).
 
-1. Add a ***New issue*** on the [TSTool code repository issues page](https://github.com/OpenWaterFoundation/cdss-app-tstool-main/issues).
+1. Add a ***New issue*** on the [TSTool code repository issues page](https://github.com/OpenCDSS/cdss-app-tstool-main/issues).
 	1. The issue title should short and clear, for example "Command ABC editor parameter choices not complete"
 	(which will be indicated as a `bug` below) or
 	"Need command to ABC" (which will be indicated as an `enhancement` below).
@@ -132,7 +138,7 @@ The following general procedure should be to used add an issue (bug, enhancement
 	Attachments can be used to provide test data or other useful information.  Use a zip file if necessary.
 	3. The issue labels should be specified as completely possible.
 	Labels can be adjusted later as necessary.
-	See the [OpenCDSS Version Control / GitHub Repository Issues](../version-control/version-control#github-repository-issues) guidelines.
+	See the [OpenCDSS Version Control / GitHub Repository Issues](../version-control/version-control.md#github-repository-issues) guidelines.
 	**If the issue author does not have write permissions on the repository, they will not be able to select issue labels.**
 		1. Select the issue type as `bug`, `enhancement`, or `question`.
 		2. Select the issue priority as `low`, `medium`, `high`, or `critical`.
@@ -145,6 +151,6 @@ The following general procedure should be to used add an issue (bug, enhancement
 TSTool automated testing has traditionally focused on functional testing, but some library components
 use unit tests.  See the following resources:
 
-* [TSTool Quality Control documentation](http://learn.openwaterfoundation.org/cdss-app-tstool-doc-user/quality-control/quality-control/)
-* [TSTool Developer Documentation on Testing](http://learn.openwaterfoundation.org/cdss-app-tstool-doc-dev/dev-tasks/testing/testing/)
-* [cdss-app-tstool-test](https://github.com/OpenWaterFoundation/cdss-app-tstool-test) - repository for automated tests
+* [TSTool Quality Control documentation](http://opencdss.state.co.us/tstool/latest/doc-user/quality-control/quality-control/)
+* [TSTool Developer Documentation on Testing](http://opencdss.state.co.us/tstool/latest/doc-dev/dev-tasks/testing/testing/)
+* [cdss-app-tstool-test](https://github.com/OpenCDSS/cdss-app-tstool-test) - repository for automated tests

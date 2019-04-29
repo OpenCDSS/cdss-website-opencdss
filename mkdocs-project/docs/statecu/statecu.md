@@ -7,6 +7,7 @@ StateCU is the State of Colorado's consumptive use model.
 	+ [Software Developers](#software-developers)
 	+ [Software User Expertise](#software-user-expertise)
 * [License](#license)
+* [OpenCDSS Web Page](#opencdss-web-page)
 * [CDSS Web Page](#cdss-web-page)
 * [User Information](#user-information)
 * [Developer Information](#developer-information)
@@ -27,21 +28,20 @@ The model can be run using monthly or daily timestep depending on consumptive us
 Input to the model consists of consumptive use locations such as climate stations and ditch structures,
 climate time series, and crop data.
 Input is typically created using "Data Management Interface" (DMI) software
-including [TSTool](../tstool/tstool) and [StateDMI](../statedmi/statedmi),
+including [TSTool](../tstool/tstool.md) and [StateDMI](../statedmi/statedmi.md),
 which automate processing of "command files" to create model input files.
 
 Output from StateCU consists of large binary files with time series data,
 large text file reports, and log and check files, depending on run options.
 Binary files are often processed using TSTool.
 
-The [StateCU GUI](../statecu-gui/statecu-gui) (Graphical User Interface)
+The [StateCU GUI](../statecu-gui/statecu-gui.md) (Graphical User Interface)
 simplifies creation of basic datasets, running datasets, and viewing results.
 Modelers often use the TSTool and StateDMI software to
 create input files because the approach is automated and
 can be repeated, whereas the GUI can be used to edit simpler datasets.
 
-The Open Water Foundation is advocating for maintaining StateCU datasets in GitHub
-for version control but this approach has not been adopted by the State.
+StateCU datasets are not maintained in GitHub.
 
 ## Product Leadership ##
 
@@ -74,16 +74,23 @@ The following are experienced StateCU users that are typically involved in defin
 |Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
 |Kara Sobieski (WWG)     |karasobieski   |Extensive modeling experience - also others at WWG.                             |
 
+## OpenCDSS Web Page ##
+
+The OpenCDSS web page provides access to StateCU software, documentation, and tests.
+This website also provides access to the development version of the software.
+
+* [StateCU on OpenCDSS](http://opencdss.state.co.us/statecu/)
+
 ## CDSS Web Page ##
 
 The CDSS web page provides access to StateCU software and model datasets:
 
-* [StateCU Software](https://www.colorado.gov/pacific/cdss/statecu)
+* [StateCU on CDSS](https://www.colorado.gov/pacific/cdss/statecu)
 * [StateCU Datasets](https://www.colorado.gov/pacific/cdss/consumptive-use-statecu)
 
 ## License ##
 
-The [license is being determined](license).  GPL 3.0 has been recommended and is being reviewed.
+The software is licensed using [GPL v3+ license](https://github.com/OpenCDSS/cdss-app-statecu-fortran/blob/master/LICENSE.md).
 
 ## User Information ##
 
@@ -99,7 +106,9 @@ Information for StateCU users consists of:
 * Model datasets have documentation - see the
 [CDSS website](https://www.colorado.gov/pacific/cdss/modeling-dataset-documentation) for model datasets and documentation.
 * The StateCU User's Manual is available on the [CDSS StateCU page](https://www.colorado.gov/pacific/cdss/software-documentation).
-* There is a need for user-friendly documentation, for example navigable documentation such as this documentation. **Need to provide online documentation.**
+* There is a need for user-friendly documentation, for example navigable documentation such as this documentation.
+[Prototype StateCU online documentation](http://opencdss.state.co.us/statecu/latest/doc-user/)
+has been created and may be enhanced.
 
 ## Developer Information ##
 
@@ -108,13 +117,13 @@ The OpenCDSS project uses the open source gfortran compiler.
 
 ### Documentation ###
 
-[Developer Documentation](http://learn.openwaterfoundation.org/cdss-learn-statecu-dev/) has been created and
+[Developer Documentation](http://opencdss.state.co.us/statecu/latest/doc-dev/) has been created and
 should be followed by all developers.
 
 ### Development Environment ###
 
 Compilation is via a makefile, although the OpenCDSS project has evaluated using Eclipse Photran.
-See the [Developer Documentation](http://learn.openwaterfoundation.org/cdss-learn-statecu-dev/)
+See the [Developer Documentation](http://opencdss.state.co.us/statecu/latest/doc-dev/)
 for information about the development environment.
 Important information includes:
 
@@ -129,10 +138,10 @@ at which time the repositories will be transferred to the OpenCDSS account:
 
 |**Content**                     |**Repository**|**Comment**|
 |--------------------------------|--------------|-----------|
-|Software code                   |[cdss-app-statecu-fortran](https://github.com/OpenWaterFoundation/cdss-app-statecu-fortran)|Private until released with public license.|
-|Automated tests                 |[cdss-app-statecu-fortran-test](https://github.com/OpenWaterFoundation/cdss-app-statecu-fortran-test)|Envisioned, need to move to OpenCDSS on GitHub.|
-|Developer documentation (MkDocs)|[cdss-app-statecu-fortran-doc-dev](https://github.com/OpenWaterFoundation/cdss-app-statecu-fortran-doc-dev)|Need to move to OpenCDSS on GitHub.|
-|User documentation (MkDocs)     |[cdss-app-statecu-fortran-doc-user](https://github.com/OpenWaterFoundation/cdss-app-statecu-fortran-doc-user)|Envisioned, need to outline and move to OpenCDSS on GitHub.|
+|Software code                   |[cdss-app-statecu-fortran](https://github.com/OpenCDSS/cdss-app-statecu-fortran)||
+|Automated tests                 |[cdss-app-statecu-fortran-test](https://github.com/OpenCDSS/cdss-app-statecu-fortran-test)|Envisioned for automated testing.|
+|Developer documentation (MkDocs)|[cdss-app-statecu-fortran-doc-dev](https://github.com/OpenCDSS/cdss-app-statecu-fortran-doc-dev)||
+|User documentation (MkDocs)     |[cdss-app-statecu-fortran-doc-user](https://github.com/OpenCDSS/cdss-app-statecu-fortran-doc-user)||
 
 StateCU software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow/workflow)
 and StateCU developer documentation.
@@ -143,7 +152,7 @@ The GitHub issues tool is how developers track issues and communicate on progres
 For an overview of using GitHub issues, see ["Mastering Issues"](https://guides.github.com/features/issues/).
 The following general procedure should be to used add an issue (bug, enhancement request, question, etc.).
 
-1. Add a ***New issue*** on the [StateCU code repository issues page](https://github.com/OpenWaterFoundation/cdss-app-statecu-fortran/issues).
+1. Add a ***New issue*** on the [StateCU code repository issues page](https://github.com/OpenCDSS/cdss-app-statecu-fortran/issues).
 	1. The issue title should short and clear, for example "Missing data not handled in ABC file" (which will be indicated as a `bug` below) or
 	"Need report for ABC" (which will be indicated as an `enhancement` below).
 	2. An issue template (via `.github` folder in repository) is provided with instructions on how to submit the issue.
@@ -152,7 +161,7 @@ The following general procedure should be to used add an issue (bug, enhancement
 	Attachments can be used to provide test data or other useful information.  Use a zip file if necessary.
 	3. The issue labels should be specified as completely possible.
 	Labels can be adjusted later as necessary.
-	See the [OpenCDSS Version Control / GitHub Repository Issues](../version-control/version-control#github-repository-issues) guidelines.
+	See the [OpenCDSS Version Control / GitHub Repository Issues](../version-control/version-control.md#github-repository-issues) guidelines.
 	**If the issue author does not have write permissions on the repository, they will not be able to select issue labels.**
 		1. Select the issue type as `bug`, `enhancement`, or `question`.
 		2. Select the issue priority as `low`, `medium`, `high`, or `critical`.
@@ -180,7 +189,7 @@ are adopted by various persons that are involved with StateCU.
 
 The StateCU testing approach is being updated to be more rigorous and automated:
 
-* [cdss-app-statecu-fortran-test](https://github.com/OpenWaterFoundation/cdss-app-statecu-fortran-test)
+* [cdss-app-statecu-fortran-test](https://github.com/OpenCDSS/cdss-app-statecu-fortran-test)
 repository is used for tests, and is under development
 * Rely on TSTool and other software to automate tests
 * The above repository includes scripts to run small tests (examples)

@@ -14,11 +14,12 @@ The development environment for each CDSS software tool typically includes the f
 
 * version control - Git/GitHub is standard for OpenCDSS
 * dependency management - for third party components
-* documentation - MkDocs is being used for some OpenCDSS components and Word/PDF has traditionally been used
+* documentation - Markdown/MkDocs is being used for some OpenCDSS components and traditional Word/PDF is retained
+where Markdown/MkDocs has not been implemented
 * editing - text editor or Integrated Development Environment (IDE) tool
-* testing - varies but tools such as TSTool are used to automate tests, compare time series, etc.
+* testing - varies with additional automated testing being implemented
 * building (compiling, creating installer) - depends on language and IDE
-* distribution - packaging executable software in installers
+* distribution - packaging executable software in installers, zip files, etc.
 
 The development environment primarily depends on the programming language.
 A simple text editor can be used at a minimum;
@@ -64,12 +65,14 @@ Another common issue is how to format code, such as whether tabs have been used 
 The typical standard is to avoid using tabs and instead use spaces, to ensure that there is no
 ambiguity in formatting. However, updating old code and enforcing this standard takes some care.
 Such issues will be addressed over time as code is reviewed and updated.
+It is typical to use the default for the IDE (such as Eclipse) or follow the programming language
+standard (such as 4-spaces for Python).
 
 ## Development Environment Documentation ##
 
 Each OpenCDSS software project includes developer documentation.
 At a minimum, the main `README.md` file in the repository will explain the project organization and how to get started.
-More complex software projects have more complex developer documentation.
+More complex software projects have correspondingly detailed developer documentation.
 New developers should consult the developer documentation first.
 If developer documentation is lacking, the OpenCDSS team can work to improve the documentation.
 

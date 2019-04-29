@@ -33,8 +33,8 @@ Ideally the workflow is fairly organic and natural and does not become a bottlen
 ## 1. Enter Issue on GitHub Issues Page ##
 
 Bugs, suggestions, and feature requests should be entered using the GitHub issues page.
-This will require that the GitHub repository URLs are prominently featured in documentation and "Help" and "About"
-dialogs for software, which will be consistent with open source licenses indicating the code location.
+This requires that the GitHub repository URLs are prominently featured in documentation and "Help" and "About"
+dialogs for software.
 
 Issues should be entered for the appropriate repository.
 For example, applications typically have a main code repository and may also may also have
@@ -190,25 +190,17 @@ Therefore, the process will need to be repeated for each repository that is invo
 Periodically, the software will be released using the software product's build process, typically:
 
 1. Update the software version in code to an appropriate value and date (if not already updated).
+Ongoing development may use a `dev` or other modifier at the end of the version to indicate
+that the software is under development.
 2. Update the software release notes (if not already updated).
 3. Create the software installer.
 4. Perform additional testing by installing the software and running automated tests.
 In this case testing will occur in the operational environment.
 4. Tag involved repositories with the software version to facilitate accessing files for a specific version later
 (for example use `git tag -a StateMod_15.00.14`).
-5. Publish the installer on CDSS website.
+See also the `build-util/git-tag-all-*.sh` script that will tag all related repositories.
+5. Publish the installer to the OpenCDSS website using the `build-util/copy-to-co-dnr-gcp.sh` script.
 Ideally users will be able to download different versions of the software installer and view release notes
 that correspond to the versions.
-
-The developer may need to create a beta release to be tested by others.
-In this case the beta version will need to be made available by email, FTP, or some other option.
-Beta versions could also be made available through official distribution channels and clearly marked so that
-anyone downloading the software knows that the software is a beta version.
-
-**OWF is evaluating GitHub Releases feature to release installers - not sure if this works will with full installers
-used with CDSS software.**
-
-**Need to work details out for how a develper-created installer is handed over to State because non-state developers
-do not have access to State download page.**
 
 **Continuous or nightly builds are not currently envisioned for CDSS software but could be implemented at some point.**

@@ -7,6 +7,7 @@ StateDMI software is used to automate processing of data to create StateCU and S
 	+ [Software Developers](#software-developers)
 	+ [Software User Expertise](#software-user-expertise)
 * [License](#license)
+* [OpenCDSS Web Page](#opencdss-web-page)
 * [CDSS Web Page](#cdss-web-page)
 * [User Information](#user-information)
 * [Developer Information](#developer-information)
@@ -52,15 +53,22 @@ The following are experienced StateDMI users that are typically involved in defi
 |Kara Sobieski (WWG)     |karasobieski   |Extensive experience - also others at WWG.                                      |
 |Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows.                       |
 
+## OpenCDSS Web Page ##
+
+The OpenCDSS web page provides access to StateDMI software, documentation, and tests.
+This website also provides access to the development version of the software.
+
+* [StateDMI on OpenCDSS](http://opencdss.state.co.us/statedmi/)
+
 ## CDSS Web Page ##
 
-The CDSS web page provides access to StateDMI software and model datasets:
+The CDSS web page provides access to StateDMI software, in particular versions used in State of Colorado projects:
 
-* [StateDMI Software](https://www.colorado.gov/pacific/cdss/statedmi)
+* [StateDMI on CDSS](https://www.colorado.gov/pacific/cdss/statedmi)
 
 ## License ##
 
-The [license is being determined](license).  GPL 3.0 has been recommended and is being reviewed.
+The software is licensed using [GPL v3+ license](https://github.com/OpenCDSS/cdss-app-statedmi-main/blob/master/LICENSE.md).
 
 ## User Information ##
 
@@ -69,8 +77,7 @@ Helpful information includes:
 
 * Model datasets have documentation about how StateDMI is used - see the
 [CDSS website](https://www.colorado.gov/pacific/cdss/modeling-data) for model datasets and documentation.
-* The StateDMI User Documentation is available on the [OWF / Learn page](http://learn.openwaterfoundation.org/cdss-app-statedmi-doc-user/) - will
-be migrated to CDSS/OpenCDSS website.
+* [StateDMI User Documentation](http://opencdss.state.co.us/statedmi/latest/doc-user/)
 
 ## Developer Information ##
 
@@ -80,18 +87,18 @@ and some of which are used as third-party binary libraries.
 
 ### Documentation ###
 
-[Developer Documentation](http://learn.openwaterfoundation.org/cdss-app-statedmi-doc-dev/)
+[Developer Documentation](http://opencdss.state.co.us/statedmi/latest/doc-dev/)
 should be followed by all developers.
 
 ### Development Environment ###
 
 Compilation is via Eclipse IDE, although it should be possible to use other tools.
-See the [Developer Documentation](http://learn.openwaterfoundation.org/cdss-app-statedmi-doc-dev/)
+See the [Developer Documentation](http://opencdss.state.co.us/statedmi/latest/doc-dev/)
 for information about the development environment.
 Important information includes:
 
 * The current standard is to develop on Windows 10 using Eclipse.
-* Git command line tools can also be used.
+* Git bash command line tools can also be used.
 
 ### Version Control ###
 
@@ -101,11 +108,11 @@ at which time the repositories will be transferred to the OpenCDSS account:
 
 |**Content**                     |**Repository**|**Comment**|
 |--------------------------------|--------------|-----------|
-|Main StateDMI code              |[cdss-app-statedmi-main](https://github.com/OpenWaterFoundation/cdss-app-statedmi-main)|Private until released with public license.|
-|Library components              ||See the [main respository README](https://github.com/OpenWaterFoundation/cdss-app-statedmi-main) for list.|
-|Automated tests                 |[cdss-app-statedmi-test](https://github.com/OpenWaterFoundation/cdss-app-statedmi-test)|Referenced by User Documentation for examples.|
-|Developer documentation (MkDocs)|[cdss-app-statedmi-doc-dev](https://github.com/OpenWaterFoundation/cdss-app-statedmi-doc-dev)|Need to move to OpenCDSS on GitHub.|
-|User documentation (MkDocs)     |[cdss-app-statedmi-doc-user](https://github.com/OpenWaterFoundation/cdss-app-statedmi-doc-user)|Need to move to OpenCDSS on GitHub.|
+|Main StateDMI code              |[cdss-app-statedmi-main](https://github.com/OpenCDSS/cdss-app-statedmi-main)||
+|Library components              ||See the [main respository README](https://github.com/OpenCDSS/cdss-app-statedmi-main) for list.|
+|Automated tests                 |[cdss-app-statedmi-test](https://github.com/OpenCDSS/cdss-app-statedmi-test)|Referenced by User Documentation for examples.|
+|Developer documentation (MkDocs)|[cdss-app-statedmi-doc-dev](https://github.com/OpenCDSS/cdss-app-statedmi-doc-dev)||
+|User documentation (MkDocs)     |[cdss-app-statedmi-doc-user](https://github.com/OpenCDSS/cdss-app-statedmi-doc-user)||
 
 StateDMI software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow/workflow)
 and StateDMI developer documentation.
@@ -116,7 +123,7 @@ The GitHub issues tool is how developers track issues and communicate on progres
 For an overview of using GitHub issues, see ["Mastering Issues"](https://guides.github.com/features/issues/).
 The following general procedure should be to used add an issue (bug, enhancement request, question, etc.).
 
-1. Add a ***New issue*** on the [StateDMI code repository issues page](https://github.com/OpenWaterFoundation/cdss-app-statedmi-main/issues).
+1. Add a ***New issue*** on the [StateDMI code repository issues page](https://github.com/OpenCDSS/cdss-app-statedmi-main/issues).
 	1. The issue title should short and clear, for example "Command ABC editor parameter choices not complete"
 	(which will be indicated as a `bug` below) or
 	"Need command to ABC" (which will be indicated as an `enhancement` below).
@@ -126,7 +133,7 @@ The following general procedure should be to used add an issue (bug, enhancement
 	Attachments can be used to provide test data or other useful information.  Use a zip file if necessary.
 	3. The issue labels should be specified as completely possible.
 	Labels can be adjusted later as necessary.
-	See the [OpenCDSS Version Control / GitHub Repository Issues](../version-control/version-control#github-repository-issues) guidelines.
+	See the [OpenCDSS Version Control / GitHub Repository Issues](../version-control/version-control.md#github-repository-issues) guidelines.
 	**If the issue author does not have write permissions on the repository, they will not be able to select issue labels.**
 		1. Select the issue type as `bug`, `enhancement`, or `question`.
 		2. Select the issue priority as `low`, `medium`, `high`, or `critical`.
@@ -139,6 +146,6 @@ The following general procedure should be to used add an issue (bug, enhancement
 StateDMI automated testing has traditionally focused on functional testing, but some library components
 use unit tests.  See the following resources:
 
-* [StateDMI Quality Control documentation](http://learn.openwaterfoundation.org/cdss-app-statedmi-doc-user/quality-control/quality-control/) - **need to implement similar to TSTool**
-* [StateDMI Developer Documentation on Testing](http://learn.openwaterfoundation.org/cdss-app-statedmi-doc-dev/dev-tasks/testing/testing/)
-* [cdss-app-statedmi-test](https://github.com/OpenWaterFoundation/cdss-app-statedmi-test) - repository for automated tests
+* [StateDMI Quality Control documentation](http://opencdss.state.co.us/statedmi/latest/doc-user/quality-control/quality-control/) - **need to implement similar to TSTool**
+* [StateDMI Developer Documentation on Testing](http://opencdss.state.co.us/statedmi/latest/doc-dev/dev-tasks/testing/testing/)
+* [cdss-app-statedmi-test](https://github.com/OpenCDSS/cdss-app-statedmi-test) - repository for automated tests
