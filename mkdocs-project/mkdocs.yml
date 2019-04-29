@@ -3,7 +3,7 @@
 # Reference: http://www.mkdocs.org/user-guide/configuration/
 #
 site_name: OpenCDSS
-pages:
+nav:
 - Introduction: index.md
 - OpenCDSS Licensing: licensing/licensing.md
 - OpenCDSS Version Control: version-control/version-control.md
@@ -18,18 +18,30 @@ pages:
 - StateMod GUI: statemod-gui/statemod-gui.md
 - StateView: stateview/stateview.md
 - TSTool: tstool/tstool.md
-#- Resources: resources.md
 # ------- configuration properties ---------------
-# Use Material theme
-# - installation notes:  https://github.com/squidfunk/mkdocs-material
-theme: material
-# Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
-# - Also see edit_uri if repo_url is specified
-#repo_url:  https://github.com/OpenWaterFoundation/cdss-website-opencdss
-site_description:  OpenCDSS
-site_author:  Open Water Foundation
-site_favicon:  'images/opencdss-favicon.ico'
+# Alphabetize
+# ------------------------------------------------
 copyright:  State of Colorado, Department of Natural Resources
+# ------------------------------------------------
 # Use extra CSS to customize styles, based on theme
 extra_css:
   - 'css/extra-material-theme.css'
+# ------------------------------------------------
+# Google Analytics
+# - see:  https://squidfunk.github.io/mkdocs-material/getting-started/#google-analytics
+google_analytics:
+ - 'UA-43023264-1'
+ - auto
+# ------------------------------------------------
+# Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
+# - Also see edit_uri if repo_url is specified
+#repo_url:  https://github.com/OpenWaterFoundation/cdss-website-opencdss
+# ------------------------------------------------
+site_author:  Open Water Foundation
+site_description:  OpenCDSS
+# ------------------------------------------------
+# Use Material theme
+# - installation notes:  https://github.com/squidfunk/mkdocs-material
+theme:
+  name: material
+  favicon:  'images/opencdss-favicon.ico'

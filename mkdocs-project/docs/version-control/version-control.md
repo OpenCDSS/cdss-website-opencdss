@@ -36,18 +36,16 @@ General conventions are also used, such as implementing `README.md` files to exp
 
 ## OpenCDSS GitHub Account ##
 
-Some State of Colorado entities such as DWR/OIT use Git or other version control systems
+Some State of Colorado entities such as Division of Water Resources (DWR)
+and Office of Information Technology (OIT) use Git or other version control systems
 for software developed for the State, such as HydroBase tools.
-However, these systems may be internal or otherwise inaccessible to OpenCDSS and the public.
+However, these version control systems may be internal or otherwise inaccessible to OpenCDSS and the public.
 To address this issue, the [OpenCDSS GitHub account](https://github.com/OpenCDSS)
-has been created to house OpenCDSS Git repositories.
+has been created to house public OpenCDSS Git repositories.
 
 The OpenCDSS account currently only houses public repositories.
-CDSS software products that do not yet have open source licenses assigned are managed
-in private repositories using the [Open Water Foundation GitHub account](https://github.com/OpenWaterFoundation).
-Access to private repositories is granted to individuals that have a need to see the repository content.
-Repositories will be transferred from the Open Water Foundation to OpenCDSS Git repositories
-as they are made public.
+Private repositories may exist in other GitHub accounts such as those of contractors
+and are typically transferred to OpenCDSS account when a project is complete.
 
 ## Git Training ##
 
@@ -60,11 +58,11 @@ experienced is gained from OpenCDSS software teams.
 Git is an acquired skill and requires ongoing use and continued learning based on first-hand experience,
 in particular to deal with branching and merging with teams.
 
-* [CDSS / Learn Git](http://learn.openwaterfoundation.org/cdss-learn-git/)
+* [CDSS / Learn Git](http://opencdss.state.co.us/cdss-learn-git/)
 
 ## Git Workflow ##
 
-OpenCDSS is using a [feature branching model](http://learn.openwaterfoundation.org/cdss-learn-git/08a-lesson-workflow-concepts/lesson-workflow-concepts/#feature-branching-model)
+OpenCDSS is using a [feature branching model](http://opencdss.state.co.us/cdss-learn-git/08a-lesson-workflow-concepts/lesson-workflow-concepts/#feature-branching-model)
 Git workflow for software projects.
 In this simple approach, the `master` branch in each repository is the most up to date.
 Bug fixes and new features are worked on in a feature branch,
@@ -75,10 +73,16 @@ The new feature or bug fix should be tested by the developer,
 after which it can be merged with the `master` branch.
 External inputs such as code submission through issues or GitHub pull requests should
 be evaluated, integrated, and tested before committing to the `master` branch.
+Ongoing development can be indicated by using `dev` at the end of the software version.
 
-A challenge for OpenCDSS is to integrate traditional "to do" lists containing software features
-with repository issues list and workflow.
-Implementation of the [OpenCDSS Workflow](workflow) is intended to address this challenge.
+Periodically, the master branch is used to create a software release,
+at which time a Git tag is created.
+Rather than maintain multiple parallel branches of major versions,
+bug fixes are typically made to the master branch and the code is moved forward.
+
+A challenge for OpenCDSS is to integrate traditional software project "to do" lists
+with repository issues list and overall workflow.
+Implementation of the [OpenCDSS Workflow](../workflow/workflow.md) is intended to address this challenge.
 
 ## Git Repository Naming Conventions ##
 
@@ -104,9 +108,9 @@ indicate a related group of repositories.
 	+ `util` - one or more general utilities
 * A product name follows, such as `statemod` for the StateMod modeling software.
 * If necessary, a language or other modifier follows, such as `fortran` for StateMod:
-	+ help to quickly identify the main development environment, skill set that is needed,
-	and integration language
-	+ in some cases, facilitate different languages to be implemented for the same product, such
+	+ helps to quickly identify the main development environment, skill set that is needed,
+	and programming language
+	+ in some cases, facilitates different languages to be implemented for the same product, such
 	as different language to access HydroBase web services (`java`, `js`, `python`, etc.)
 * Additional modifiers can be added to the main product, such as 
 `doc-dev` for developer documentation, `doc-user` for user documentation, and `test` for automated tests.
@@ -148,17 +152,17 @@ Refer to each product's information to learn whether a GitHub project is defined
 
 GitHub provides an ***Issues*** tracker at the repository level,
 and this is one of the primary ways that contributors to the repository manage the work related to the repository.
-Note that issues are not stored with the repository - they are a feature provided by GitHub in addition
+Note that issues are not stored with the repository - they are a feature provided by GitHub website in addition
 to the standard Git repository.
 
 GitHub provides default issue "labels" that can be associated with an issue, such as `bug`, `enhancement`, `duplicate`, etc.
 Although the default issues are useful, they do not provide enough information to allow a developer,
 development team, or product manager to understand priority and estimated level of effort to address an issue.
-[GitHub projects](#github-repository-projects) provide features to indicate priority in that high priority issues
+[GitHub projects](#github-projects) provide features to indicate priority in that high priority issues
 may be added to the current project dashboard.
 However, it is useful to understand priority and size at the issue level in cases where a GitHub project is not used
 and because GitHub projects don't indicate size.
-Therefore, for OpenCDSS, the custom labels shown in the following table are typically added to each repository.
+Therefore, for OpenCDSS, the custom labels shown in the following table are typically added to the default labels for each repository.
 The colors generally follow the pattern of hot colors for "more important" or "big" issues, and cool colors for "less important" and "small" issues.
 The description for the label, which is shown in the issue editor, helps understand the context of the label by using`Priority` or `Size`.
 GitHub users that are able to edit issue details should select a label from each of the three groups in order to indicate
@@ -179,4 +183,4 @@ issue type, priority, and size:
 |Size           |`M`            |`Size: 2-3 days`                                                         |blue     |`#0000ff`    |
 |Size           |`L`            |`Size: more than 3 days`                                                 |yellow   |`#ffff00`    |
 |Size           |`XL`           |`Size: needs to be split`                                                |red      |`#ff0000`    |
-|Size           |`XXL`          |May use this in the future to allow `XL` to be something like `4-14 days`.  If `XXL` is used the `XL` color can e orange and `XXL` can be red.|         |             |
+|Size           |`XXL`          |May use this in the future to allow `XL` to be something like `4-14 days`.  If `XXL` is used the `XL` color can be orange and `XXL` can be red, or use pink or another color for `XXL`.|         |             |

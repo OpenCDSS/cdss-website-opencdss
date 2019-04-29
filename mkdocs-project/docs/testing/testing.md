@@ -23,15 +23,15 @@ datasets, resulting in complex interactions and outputs.
 ## Automated Testing Frameworks ##
 
 Automated testing frameworks provide the infrastructure to run automated tests.
-Most languages have a default testing framework that has been developed over time, for example `Junit` for Java programs.
+Most languages have a default or preferred testing framework that has been developed over time, for example `Junit` for Java programs.
 Most development IDEs, such as Eclipse for Java, provide features to integrate with one or more testing frameworks.
 
-Fortran, which is the language used for StateCU and StateMod, does not provide many options for automated testing.
-However, testing model functionality may not benefit from low-level language testing frameworks for functions and subroutines.
-Instead, it is often more effective to test results by running StateMod operationally for small datasets.
+Fortran, which is the language used for StateCU and StateMod, does not provide many options for automated testing
+and testing frameworks tend to use another language (Ruby, Python, etc.) to serve as the controlling tool.
+Testing can be implemented at unit (function) level or at functional (command line) level.
 
 Preliminary evaluation of testing frameworks for StateMod are focusing on using existing testing frameworks,
-such as TSTool testing features that can be used to compare text files and time series, and Python testing tools.
+such as TSTool testing features that can be used to compare text files and time series.
 Any solution will require identifying and configuring small tests for specific functionality,
 and larger tests to confirm overall functionality where multiple components interact.
 

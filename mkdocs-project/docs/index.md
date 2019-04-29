@@ -1,9 +1,8 @@
 # OpenCDSS / Introduction #
 
 This is the documentation for the OpenCDSS project,
-which is moving software in
-[Colorado's Decision Support Systems (CDSS)](http://cdss.state.co.us)
-to open source projects.
+which is the open source software implementation of
+[Colorado's Decision Support Systems (CDSS)](http://cdss.state.co.us).
 The OpenCDSS effort seeks to change the paradigm of how CDSS software is developed, maintained, and supported,
 in order to encourage a larger software developer and user community to engage
 in transparent and sustainable software projects.
@@ -26,7 +25,7 @@ This introduction page includes the following sections:
 
 This website provides overview information about the OpenCDSS project.
 Separate pages are provided discussing important overarching concepts such as software licensing.
-Each major software component is also described in a separate page.
+Each major CDSS software component is also described in a separate page.
 
 Use the left navigation menu to access pages in this documentation.
 Use the right navigation menu to access sections within a page.
@@ -50,7 +49,7 @@ which are envisioned as a general platform of data and tools to help with water 
 
 In late 2016, the Open Water Foundation began the effort to move StateMod and other CDSS software to open source licensing
 and establish open source software projects, referred to as "OpenCDSS".
-The OpenCDSS project is resulting in a significant evolution in how CDSS software development occurs,
+The OpenCDSS project is a significant evolution in how CDSS software development occurs,
 such as implementing version control with Git/GitHub and modernizing the development environment and documentation. 
 
 ## Project Leadership ##
@@ -62,32 +61,24 @@ Leadership roles are expected to change as the OpenCDSS effort matures and more 
 and demonstrate an ability to contribute to software.
 
 * The OpenCDSS CWCB contact is [Brian Macpherson](mailto:brian.maxpherson@state.co.us).
-* The OpenCDSS DWR lead is [Mary Halstead](mailto:mary.halstead@state.co.us).
+* The OpenCDSS DWR lead is [Kelley Thompson](mailto:kelley.thompson@state.co.us).
 
-The OpenCDSS consulting team effort is being led by the Open Water Foundation ([see below](#open-water-foundation)),
-with [Steve Malers](mailto:steve.malers@openwaterfoundation.org) being the lead.
+The OpenCDSS consulting team effort is led by the
+[Open Water Foundation](http://openwaterfoundation.org/).
 [Wilson Water Group](http://www.wilsonwatergroup.com/) is a key subcontractor given their
 experience with CDSS modeling projects.
+[Open Tech Strategies](https://opentechstrategies.com/) provided expert advice on implementation of open source approach.
 
 Each CDSS software tool is being implemented as a separate open source project with one or more GitHub repositories
 (see the main navigation links on this website to access products).
 Software developers and State of Colorado staff with appropriate capabilities and interests are
 associated with each software tool's project.
-The initial OpenCDSS effort is establishing basic protocols that will be followed on other projects.
+The initial OpenCDSS effort has established basic protocols that will be followed on other projects.
+These protocols will evolve over time in response to experience and feedback.
 
 OpenCDSS leadership have regular "stand up" meetings/calls to coordinate the project.
 OpenCDSS efforts are coordinated with other projects such as ArkDSS implementation for the Arkansas Basin
 and [Statewide Water Supply Initiative (SWSI) project](http://cwcb.state.co.us/water-management/water-supply-planning/Pages/SWSIUpdate.aspx).
-
-### Open Water Foundation ###
-
-The Open Water Foundation (OWF, [openwaterfoundation.org](http://openwaterfoundation.org)) is a
-nonprofit social enterprise that focuses on developing and supporting open source software to make better decisions about water resources.
-OWF is providing technical resources and management to
-transition StateMod and other CDSS software to sustainable open source software projects.
-OWF staff, in particular Steve Malers, have been involved in CDSS development for many years.
-Once CDSS software tools are transferred to open source projects,
-each product will be supported and enhanced based on the team that is focusing on that product.
 
 ## OpenCDSS Background ##
 
@@ -117,40 +108,40 @@ software tools are updated, and that OpenCDSS protocols will learn and adapt fro
 
 ## OpenCDSS Status ##
 
-The OpenCDSS project has been focusing on fundamental technical and educational issues in order to
+The OpenCDSS project initially focused on fundamental technical and educational issues in order to
 implement high-quality open source projects.
 Of particular importance is firming up the sustainability of key modeling tools including
 StateCU and StateMod.
 
 Significant progress has been made in many areas, including the following (see individual software pages for more information):
 
-* Determining software licenses [see OpenCDSS Licensing](../licensing/licensing):
-	+ As of March 2018, recommendations are under review.
-	+ GPL 3.0 has been recommended for most tools.
-* Placing software under version control [see OpenCDSS Version Control](../version-control/version-control):
-	+ Initial efforts are complete and are being used in development.
+* Determining software licenses [(see OpenCDSS Licensing)](../licensing/licensing):
+	+ [General Public License (GPL 3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+	has been implemented for the main CDSS tools.
+	+ [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+	has been implemented for documentation.
+* Placing software under version control [(see OpenCDSS Version Control)](../version-control/version-control):
 	+ The State has established the [OpenCDSS GitHub account](https://github.com/OpenCDSS) to house repositories.
-	+ The above only provides access to public repositories and until open sources licenses are officially
-	assigned, private repositories are housed by the Open Water Foundation.
-	+ Some CDSS public repositories are also housed under the
-	[Open Water Foundation GitHub account](https://github.com/OpenWaterFoundation)
-	but are being transitioned to the OpenCDSS GitHub account.
-* Implementing new development environments [see OpenCDSS Development Environment](../dev-env/dev-env):
-	+ Phasing in for each tool.
-	+ Integrating with version control.
-	+ Implementing standard workflows for reporting issues and responding with code changes.
-* Implementing tools for documentation [see OpenCDSS Documentation](../documentation/documentation):
-	+ Moving documentation to online format over time (legacy Word/PDF if not migrated).
-	+ Documentation versions are maintained in GitHub.
-* Implementing tools for testing [see OpenCDSS Testing](../testing/testing):
-	+ Being implemented at various levels for different software.
+	+ Public repositories have been created for key CDSS tools.
+	+ Software, documentation, and tests are typically saved in different repositories to facilitate
+	work using different development environments and skills.
+* Implementing new/updated development environments [(see OpenCDSS Development Environment)](../dev-env/dev-env):
+	+ Developer documentation has been created for each tool.
+	+ Development environments are integrated with version control.
+	+ Standard workflows have been implemented to report issues and follow up with the development team.
+* Implementing tools for documentation [(see OpenCDSS Documentation)](../documentation/documentation):
+	+ Documentation has been moved to online format,
+	with complete migration occurring over time.
+	+ Documentation versions are maintained in GitHub repositories.
+* Implementing tools for testing [(see OpenCDSS Testing)](../testing/testing):
+	+ Automated testing frameworks are being implemented at various levels for different software.
 	+ This is an ongoing activity given the complexity of software functionality.
 
-There is also a need to integrate OpenCDSS with the core CDSS, such as the State's CDSS website.
-This will involve activities such as the following:
+The OpenCDSS website and GitHub repositories are also being integrated with core CDSS program and website.
+This involves activities such as the following:
 
-1. Link CDSS website to software project GitHub repositories and documentation such as this documentation.
-2. Establish a workflow whereby software enhancements and issues are identified and implemented and
+1. Linking the CDSS website to software project GitHub repositories and documentation such as this documentation.
+2. Establishing a workflow whereby software enhancements and issues are identified and implemented and
 product releases are made available on the CDSS website.
 3. Establishing a backlog of software work tasks, such as via the GitHub issues page.
 4. Prioritizing OpenCDSS/CDSS software enhancements across projects using various funding sources,
@@ -160,18 +151,18 @@ contract vehicles, and human resources.
 
 The technical nature of OpenCDSS has required a period of time to determine
 approach and overcome technical issues.
-Most issues have been resolved, resulting in protocols and working examples for
+Most issues with OpenCDSS initialization have been resolved, resulting in protocols and working examples for
 version control, development environment, documentation, testing, etc., as discussed in other sections of this documentation.
-The following sections indicate how to get involved with OpenCDSS.
+The following sections indicate how to get involved with OpenCDSS as it is used to maintain and enhance CDSS tools.
 
 ### OpenCDSS Leadership ###
 
 The OpenCDSS leadership (see [Project Leadership](#project-leadership)) is lean by design, with the initial focus
 on ensuring that core CDSS software products are effectively moved to open source projects.
 State personnel have also been evaluating how to allocate internal resources to each software tool.
-As software projects become public there will be opportunities to further evaluate how best
+As open source software projects engage more people, there will be opportunities to further evaluate how best
 to allocate human resources aligned with each software tool.
-OpenCDSS leadership coordinates with other leadership efforts in State program areas.
+OpenCDSS leadership coordinates with other State projects and programs.
 
 ### Software Development Team ###
 
@@ -186,12 +177,13 @@ to be able to contribute.
 A compromise is to use some OpenCDSS resources on development environment documentation so that new developers
 have context and can learn from documentation prepared by previous developers.
 Efforts have been made to help increase OpenCDSS knowledge, such as developing the
-[CDSS / Learn Git](http://learn.openwaterfoundation.org/cdss-learn-git/) training materials,
+[CDSS / Learn Git](http://opencdss.state.co.us/cdss-learn-git/) training materials
 and developer manuals for each software tool.
 Enhancement of documentation, training opportunities, and other educational efforts will continue in the future.
 
 If you are interested in contributing to a software project, engage with the project by using the software,
-making suggestions via the GitHub issues page for the project, or contributing code via the open source project.
+making suggestions via the GitHub issues page for the project, contributing code via the open source project,
+or providing funding for specific enhancements.
 
 ### CDSS User Group ###
 
@@ -204,15 +196,13 @@ More information will be provided in the future.
 
 ## License ##
 
-The licenses for this documentation and CDSS software are being determined in the OpenCDSS project.
-More information will be provided soon.
+The license for this documentation is the
+[Creative Commons CC-BY 4.0 license](https://github.com/OpenCDSS/cdss-website-opencdss/blob/master/LICENSE.md).
 
 ## Source Repository on GitHub ##
 
 The source files for this documentation are maintained in the public GitHub repository:
 [cdss-website-opencdss](https://github.com/OpenCDSS/cdss-website-opencdss).
-Website files currently are copied to the Open Water Foundation [OpenCDSS](http://learn.openwaterfoundation.org/cdss-website-opencdss/) website,
-and will be copied to State of Colorado server once details are worked out.
 
 ## Release Notes ##
 
