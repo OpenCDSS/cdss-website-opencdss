@@ -17,7 +17,7 @@ This page discusses the overall OpenCDSS workflow used to fix software bugs and 
 
 OpenCDSS is being funded by the State of Colorado and focuses on software tools used by the State and its contractors.
 Although there is interest by the State in encouraging other entities to participate in OpenCDSS software projects,
-the State is particular interested in ensuring that the software tools can be supported and enhanced to meet
+the State is particularly interested in ensuring that the software tools can be supported and enhanced to meet
 the requirements of the State.
 A practical consideration is that if someone requests an enhancement to a CDSS software tool,
 State funding and project resources will not automatically be directed to that request.
@@ -28,7 +28,7 @@ and will need to work with developers that have commit privileges.
 
 The following sections describe the general workflow that will be utilized to meet State of Colorado goals.
 **This workflow is proposed and is being phased in. The workflow will be evaluated and adjusted based on actual use.
-Ideally the workflow is fairly organic and natural and does not become a bottleneck to making decisions and getting work done.**
+Ideally the workflow is fairly organic and does not become a bottleneck to making decisions and getting work done.**
 
 ## 1. Enter Issue on GitHub Issues Page ##
 
@@ -37,7 +37,7 @@ This requires that the GitHub repository URLs are prominently featured in docume
 dialogs for software.
 
 Issues should be entered for the appropriate repository.
-For example, applications typically have a main code repository and may also may also have
+For example, applications typically have a main code repository and may also have
 related repositories such as for libraries, documentation, and tests.
 If the issue is specific to a repository, the issue can be entered for that repository.
 However, it may be easiest in most cases to enter the issue on the application's main repository and
@@ -61,39 +61,31 @@ data including ***Labels***, which indicate whether the issue is a bug, question
 priority of the issue.
 Issue details will be filled out by the development team in the next steps.
 
-**Question - will this approach work for GitHub users that need to edit all aspects of
-issues but are not skilled in Git/GitHub functionality?  Ideally, State of
-Colorado staff and consultants that are not software developers
-but provide key input on bugs and enhancements for software projects
-can comment on issues but not make edits to code and other files.**
-
 ## 2. Perform In-State Triage ##
 
-When an issue is added to the GitHub repository, repository maintainers with edit permissions
-(**need to check whether this is repository administrators or those with write permissions**) will
+When an issue is added to the GitHub repository, repository maintainers who are subscribed will
 automatically be notified with an email.
 The State CDSS leadership team member associated with the product will then perform initial triage
 in order to prioritize issues within the State's interests, considering the State's existing priorities
 for software product enhancements. The following are potential issue evaluation criteria and actions:
 
-1. Review issue description.
+1. Review issue description
 	+ Is the description clear?
 	+ In order to reproduce a bug, has an example been provided using GitHub issue attachments?
 	+ Assign an initial label to the issue using standard GitHub labels (`bug`, `duplicate`, `enhancement`,
 	`help wanted`, `invalid`, `question`, `wontfix`)
-2. Review issue relevance to State.
+2. Review issue relevance to State
 	+ Is the issue already included in State plans?
-	(**Need to discuss seeding the GitHub issues with existing planning "to do" list.**)
 	+ Will addressing the issue have positive or negative effects (risk) for the State and
 	its use of the software?
-3. Make a determination as to issue priority and whether to direct State resources to the issue.
+3. Make a determination as to issue priority and whether to direct State resources to the issue
 	+ Is the issue already in the State's plan for software enhancements on existing/ongoing projects?
 	+ Is the issue in the State's plan for the future?
 	+ Are funding and human resources available on a project?
 	+ Assign an initial priority label to the issue using custom issue labels
 	(`low`, `medium`, `high`, `critical`)
 	+ If possible, assign an initial size to indicate size label to indicate level of effort
-	(`XS`, `S`, `M`, `L`, `XL`), although it may be difficult at this state to assign this label,
+	(`XS`, `S`, `M`, `L`, `XL`), although it may be difficult at this stage to assign this label,
 	in which case the label will be added later by a specific developer
 
 Possible actions include:
@@ -105,13 +97,6 @@ reported the issue), then the issue could be made a high priority even without S
 * As necessary, engage additional expertise to complete triage (see next section).
 * If it is clear that the issue can be assigned to available resources (such as State IT staff or contractors),
 then assign the issue to those resources.
-
-**Need to evaluate how the general open source project governance integrates with State-specific interests,
-for example enhancing products outside of State of Colorado projects.
-In some cases a non-State development team member, such as a consultant,
-will be the most appropriate to jump on an issue.
-The State team member may quickly pass the issue through to the next step or it may be obvious that the
-State review will be bypassed in order to expedite the issue.**
 
 ## 3. Engage Triage Expertise as Needed ##
 
@@ -165,7 +150,7 @@ Once the feature branch is created, the software developer will make software ch
 test the software (ideally by implementing automated tests), and update documentation.
 Commits to the branch can occur as often as it makes sense and should follow Git best practices.
 
-**Testing for multiple configurations such as different Windows and Linux operating systems, 32-bit, 64-bit
+**Testing for multiple configurations such as different Windows and Linux operating systems, 32-bit, and 64-bit
 can be resource-intensive. This is an area that will continue to require resources
 to implement effective testing frameworks, with each program having specific testing approach that
 makes sense for the program.**
@@ -173,7 +158,7 @@ makes sense for the program.**
 ## 6. Merge Feature Branch into Master ##
 
 Once development is complete for the issue, the feature branch can be merged back into the `master` branch
-and the commits pushed to the remote GitHub repository.
+and the commits pushed to the GitHub repository.
 
 If the work is done by someone without write permissions, then the GitHub pull request feature can be used
 to let the core development team know that an enhancement is ready to be merged.
@@ -185,9 +170,9 @@ This approach requires that funding resources are made available to all parties 
 A software product may involve multiple repositories such as main code, libraries, documentation, and tests.
 Therefore, the process will need to be repeated for each repository that is involved.
 
-## 7. Periodically, Release Software ##
+## 7. Periodically Release Software ##
 
-Periodically, the software will be released using the software product's build process, typically:
+Periodically, the software will be released using the software product's build process:
 
 1. Update the software version in code to an appropriate value and date (if not already updated).
 Ongoing development may use a `dev` or other modifier at the end of the version to indicate
