@@ -34,7 +34,7 @@ the navigation features may be shown as icons with associated popup menus.
 
 ## Colorado's Decision Support Systems ##
 
-Colorado's Decision Support Systems (CDSS, [cdss.state.co.us](http://cdss.state.co.us))
+Colorado's Decision Support Systems (CDSS, [www.colorado.gov/cdss](http://www.colorado.gov/cdss))
 has been developed to answer important questions about Colorado's water resources.
 CDSS efforts are led by the [Colorado Water Conservation Board (CWCB)](http://cwcb.state.co.us)
 and [Colorado Division of Water Resources (DWR)](http://water.state.co.us).
@@ -47,7 +47,7 @@ Other focused DSS were also developed, such as the CWCB's Instream Flow DSS.
 Each DSS resulted in enhancements to the core CDSS tools,
 which are envisioned as a general platform of data and tools to help with water supply planning.
 
-In late 2016, the Open Water Foundation began the effort to move StateMod and other CDSS software to open source licensing
+In late 2016, a contract was awarded to move StateMod and other CDSS software to open source licensing
 and establish open source software projects, referred to as "OpenCDSS".
 The OpenCDSS project is a significant evolution in how CDSS software development occurs,
 such as implementing version control with Git/GitHub and modernizing the development environment and documentation. 
@@ -60,7 +60,7 @@ and is supported by software developers that have experience with each tool.
 Leadership roles are expected to change as the OpenCDSS effort matures and more people become involved
 and demonstrate an ability to contribute to software.
 
-* The OpenCDSS CWCB contact is [Brian Macpherson](mailto:brian.maxpherson@state.co.us).
+* The OpenCDSS CWCB contact is [Brian Macpherson](mailto:brian.macpherson@state.co.us).
 * The OpenCDSS DWR lead is [Kelley Thompson](mailto:kelley.thompson@state.co.us).
 
 The OpenCDSS consulting team effort is led by the
@@ -76,10 +76,6 @@ associated with each software tool's project.
 The initial OpenCDSS effort has established basic protocols that will be followed on other projects.
 These protocols will evolve over time in response to experience and feedback.
 
-OpenCDSS leadership have regular "stand up" meetings/calls to coordinate the project.
-OpenCDSS efforts are coordinated with other projects such as ArkDSS implementation for the Arkansas Basin
-and [Statewide Water Supply Initiative (SWSI) project](http://cwcb.state.co.us/water-management/water-supply-planning/Pages/SWSIUpdate.aspx).
-
 ## OpenCDSS Background ##
 
 The OpenCDSS project grew out of a recognition that the traditional approach to developing and maintaining
@@ -88,7 +84,7 @@ Motivation for change was provided by loss of technical staff at State
 agencies and consulting companies.  Key concerns included:
 
 1. How will knowledge about CDSS tools be retained?
-2. How will a new (and renewing) generation of CDSS users and developers be established?
+2. How will a new generation of CDSS users and developers be established?
 3. How can software be maintained using current professional standards?
 4. How can the cost and human effort of software maintenance be distributed?
 
@@ -117,7 +113,7 @@ Significant progress has been made in many areas, including the following (see i
 
 * Determining software licenses [(see OpenCDSS Licensing)](../licensing/licensing):
 	+ [General Public License (GPL 3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-	has been implemented for the main CDSS tools.
+	has been implemented for the main CDSS software tools.
 	+ [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 	has been implemented for documentation.
 * Placing software under version control [(see OpenCDSS Version Control)](../version-control/version-control):
