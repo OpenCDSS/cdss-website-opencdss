@@ -13,8 +13,6 @@ This page discusses CDSS software licensing consistent with OpenCDSS.
 ## Introduction ##
 
 Software developed for the State of Colorado has traditionally not been managed as open source projects.
-Software is often developed by consultants in order to "get the work done",
-including Excel spreadsheets and one-off deliverables.
 CDSS software tools have specific niche purposes and are generally not distributed as mass-market software.
 Consequently, a simple disclaimer has traditionally been attached to software.
 However, this simple approach is inadequate, especially for more significant software tools,
@@ -86,20 +84,5 @@ Contributed content will comply with the main license and is copyrighted to the 
 within the OpenCDSS projects.
 
 In order to contribute any content to OpenCDSS,
-first complete the [OpenCDSS Contributor License Agreement](OpenCDSS-CLA-v1-2019-02-12.pdf) and then
-email a scanned copy to the [OpenCDSS email address](mailto:DNR_OpenCDSS@state.co.us) or the [OpenCDSS contact](brian.macpherson@state.co.us).
-
-## State of Colorado Contract Language ##
-
-The State of Colorado uses standard contract language to address how intellectual property is handled.
-The following excerpts from contracts are relevant and are explained here to help OpenCDSS contractors and contributors
-understand terms.
-
-**Need to explain how this is consistent with CLA or takes the place of a CLA.**
-
-## State Contributions to Other Software Projects ##
-
-There may be cases where an existing software project that is owned/copyrighted by another entity is
-enhanced as part of a project funded by the State of Colorado.
-In this case, the State and persons acting on its behalf may be required to sign CLAs to contribute
-to those projects.  **TODO - how does State of Colorado contract language handle this?**
+contact the [OpenCDSS contact](mailto:brian.macpherson@state.co.us) about
+completing the [OpenCDSS Contributor License Agreement](OpenCDSS-CLA-v1-2019-02-12.pdf).
