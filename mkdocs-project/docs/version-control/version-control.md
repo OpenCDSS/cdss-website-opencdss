@@ -36,13 +36,8 @@ General conventions are also used, such as implementing `README.md` files to exp
 
 ## OpenCDSS GitHub Account ##
 
-Some State of Colorado entities such as Division of Water Resources (DWR)
-and Office of Information Technology (OIT) use Git or other version control systems
-for software developed for the State, such as HydroBase tools.
-However, these version control systems may be internal or otherwise inaccessible to OpenCDSS and the public.
-To address this issue, the [OpenCDSS GitHub account](https://github.com/OpenCDSS)
+The [OpenCDSS GitHub account](https://github.com/OpenCDSS)
 has been created to house public OpenCDSS Git repositories.
-
 The OpenCDSS account currently only houses public repositories.
 Private repositories may exist in other GitHub accounts such as those of contractors
 and are typically transferred to OpenCDSS account when a project is complete.
@@ -124,7 +119,7 @@ at the tools needed for that repository.
 For example, if a contributor only contributes to StateMod documentation,
 they don't need to concern themselves with understanding the software code development environment.
 This is particularly relevant for large, complicated development environments.
-3. Using different repositories allows permissions to be controlled at more granular level.
+3. Using different repositories allows permissions to be controlled at a more granular level.
 For example, a contributor with write access to documentation and test repositories
 may not have write access to the code repository.
 
@@ -135,7 +130,7 @@ and provide a way to manage project work items.
 OpenCDSS is experimenting with GitHub projects as a way to allow OpenCDSS management
 who are not software developers to
 engage in higher-level project management, such as prioritizing funded work,
-while allowing software developers to work at more granular level via GitHub issues
+while allowing software developers to work at a more granular level via GitHub issues
 ([see next section](#github-repository-issues)).
 GitHub projects allow tracking issues in a "to do", "in progress", and "done" dashboard,
 integrate with GitHub repository issues,
@@ -152,7 +147,7 @@ Refer to each product's information to learn whether a GitHub project is defined
 
 GitHub provides an ***Issues*** tracker at the repository level,
 and this is one of the primary ways that contributors to the repository manage the work related to the repository.
-Note that issues are not stored with the repository - they are a feature provided by GitHub website in addition
+Note that issues are not stored with the repository - they are a feature provided by the GitHub website in addition
 to the standard Git repository.
 
 GitHub provides default issue "labels" that can be associated with an issue, such as `bug`, `enhancement`, `duplicate`, etc.
