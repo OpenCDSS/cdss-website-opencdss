@@ -12,31 +12,12 @@ This page discusses the general approach for software documentation.
 
 OpenCDSS documentation is using a different approach than past documentation efforts.
 Traditionally, Microsoft Word has been used to create documentation, which is then saved as PDF files for distribution.
-This has the following limitations:
-
-1. Microsoft Word files for CDSS software tend to be large files and because the files are essentially binary,
-they are difficult to use with version control systems:
-	1. Large binary files take a lot of space in repositories.
-	Even a minor edit results in the entire file needing to be saved in Git.
-	2. It is difficult to "diff" versions, requiring conversion to text and using software that is not
-	configured by default.
-	3. Because it is difficult to automate conversion of Word files to PDF during software installer creation,
-	it is often necessary to also save PDF files in repositories.
-	This approach is counter to the typical approach of only saving source files in repositories.
-	4. It is difficult to automate aggregating separate Word files into complete documents.
-	5. Although Word/PDF files provide navigation and search features, such features can be difficult
-	to configure effectively through bookmarks, etc.
-2. Microsoft Word (Microsoft Office) software has a cost, which may be a limitation for some software developers that
-want to contribute to a software project.
-Although open source tools are available, they often do not handle all Word files.
-Using alternatives such as Google Docs limits the ability to track documentation under version control.
-3. Microsoft Word editing software is not readily-available on all platforms, thereby limiting ability to edit.
-4. Word files do not convert into website content to the degree required for software project websites.
+This approach has several limitations, including difficulty in comparing versions, a binary file format, complicated
+formatting, and lack of search functionality. 
 
 ## MkDocs Static Websites ##
 
-Based on significant review and experimentation performed by the Open Water Foundation,
-OWF has recommended that the OpenCDSS effort adopt the MkDocs software as the tool for creating
+Based on significant review and experimentation, the OpenCDSS effort has adopted the MkDocs software as the tool for creating
 oftware documentation (and other documentation), for the following reasons:
 
 1. The source files for documentation are Markdown, which is a simple text format that has been widely
