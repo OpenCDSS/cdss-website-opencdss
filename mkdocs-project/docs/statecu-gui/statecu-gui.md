@@ -44,7 +44,7 @@ The State of Colorado has designated the following as product contacts for devel
 
 The following are experienced StateCU GUI users that are typically involved in defining software functionality and testing.
 
-|**Personr**             |**GitHub User**|**Role/Comment**|
+|**Person**              |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
 |Kelley Thompson (DWR)   |kelleythompson |                                                                                |
 |Brian Macpherson (CWCB) |macphersonbr   |                                                                                |
