@@ -110,7 +110,7 @@ StateDMI code and other electronic assets are housed in the following repositori
 |Developer documentation (MkDocs)|[cdss-app-statedmi-doc-dev](https://github.com/OpenCDSS/cdss-app-statedmi-doc-dev)||
 |User documentation (MkDocs)     |[cdss-app-statedmi-doc-user](https://github.com/OpenCDSS/cdss-app-statedmi-doc-user)||
 
-StateDMI software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow/workflow)
+StateDMI software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](http://opencdss.state.co.us/opencdss/workflow/workflow/)
 and StateDMI developer documentation.
 
 ### Adding an Issue ###
