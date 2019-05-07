@@ -9,8 +9,8 @@ currently used in the standard CDSS modeling environment.
 	+ [Software Developers](#software-developers)
 	+ [Software User Expertise](#software-user-expertise)
 * [License](#license)
-* [OpenCDSS Web Page](#opencdss-web-page) - current and archived downloads
-* [CDSS Web Page](#cdss-web-page) - versions used in CDSS
+* [OpenCDSS Web Page](#opencdss-web-page)
+* [CDSS Web Page](#cdss-web-page)
 * [User Information](#user-information)
 * [Developer Information](#developer-information)
 	+ [Documentation](#documentation)
@@ -29,7 +29,7 @@ run StateMod, and view results from the model.
 The software includes viewing windows for most StateMod data files, model network,
 and map interface (if spatial data are provided).
 
-However, CDSS modelers in most cases prefer to use data-centered approach
+However, CDSS modelers in most cases prefer to use a data-centered approach
 that involves running TSTool and StateDMI software to prepare model input files,
 and using software such as TSTool to view output.
 
@@ -47,17 +47,14 @@ The State of Colorado has designated the following as product contacts for devel
 |**Person**             |**GitHub User**|**Role/Comment**|
 |-----------------------|---------------|--------------------------------------------------------------------------------|
 |Steve Malers (OWF)     |smalers        |OpenCDSS lead and StateMod GUI developer.                                       | 
-|              ? (DWR)  |?              |State of Colorado DWR StateMod GUI champion.                                    |
-|         ? (CWCB)      |?              |State of Colorado CWCB StateMod GUI champion.                                   |
 |Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead.                                                    |
 
 ## Software User Expertise ##
 
 The following are experienced StateMod GUI users that are typically involved in defining software functionality and testing.
 
-|**Personr**             |**GitHub User**|**Role/Comment**|
+|**Person**             |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
-|Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
 |Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows.                       |
 
 ## OpenCDSS Web Page ##
