@@ -22,7 +22,7 @@ StateCU is the State of Colorado's consumptive use model.
 ## Background ##
 
 StateCU is the State of Colorado's consumptive use model,
-which simulates consumptive use for agricultural and municipal demands.
+which simulates consumptive use for agricultural demands.
 The model can be run using monthly or daily timestep depending on consumptive use method.
 
 Input to the model consists of consumptive use locations such as climate stations and ditch structures,
@@ -47,8 +47,6 @@ StateCU datasets are not maintained in GitHub.
 
 StateCU software development leadership is in transition.
 Several developers have contributed to StateCU over the years.
-Knowledge of developers needs to be transitioned to new developers,
-including State of Colorado staff.
 
 The OpenCDSS effort has focused on putting StateCU code under version control and
 implementing an updated development environment.
@@ -60,10 +58,10 @@ The State of Colorado has designated the following as product contacts for devel
 
 |**Person**             |**GitHub User**|**Role/Comment**|
 |-----------------------|---------------|--------------------------------------------------------------------------------|
-|Kelley Thompson (DWR)  |kelleythompson |State of Colorado lead developer for StateCU.                                   |
-|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead.                                                    |
-|Erin Wilson (WWG)      |?              |Legacy developer.                                                               |
-|Steve Malers (OWF)     |smalers        |OpenCDSS lead, facilitating implementation of open source project.              | 
+|Kelley Thompson (DWR)  |kelleythompson |State of Colorado lead developer for StateCU                                    |
+|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CWCB lead                                                     |
+|Erin Wilson (WWG)      |               |Legacy developer                                                                |
+|Steve Malers (OWF)     |smalers        |OpenCDSS lead, facilitating implementation of open source project               | 
 
 ## Software User Expertise ##
 
@@ -71,8 +69,8 @@ The following are experienced StateCU users that are typically involved in defin
 
 |**Person**              |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
-|Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
-|Kara Sobieski (WWG)     |karasobieski   |Extensive modeling experience - also others at WWG.                             |
+|Ashenafi Madebo  (DWR)  |amadeboh       |Experience with Rio Grande                                                      |
+|Kara Sobieski (WWG)     |karasobieski   |Extensive modeling experience - also others at WWG                              |
 
 ## OpenCDSS Web Page ##
 
@@ -95,7 +93,7 @@ The software is licensed using [GPL v3+ license](https://github.com/OpenCDSS/cds
 ## User Information ##
 
 StateCU users generally fall into two categories: "modelers" and "users of model results".
-The former develops model input and runs StateCU on the model dataset whereas the latter may
+The former develops model input and runs StateCU on the model input dataset whereas the latter may
 just review models results that someone else has run.
 The CDSS approach tends to support modelers and there is an opportunity to improve access to model results.
 This is challenging because model results files can be very large and finding a way to access and
@@ -115,7 +113,7 @@ has been created and may be enhanced.
 StateCU is written in Fortran (Fortran 77 with some newer code).
 The OpenCDSS project uses the open source gfortran compiler.
 
-### Documentation ###
+### Developer Documentation ###
 
 [Developer Documentation](http://opencdss.state.co.us/statecu/latest/doc-dev/) has been created and
 should be followed by all developers.
@@ -132,10 +130,7 @@ to differentiate between 32/64 bit, and Windows/Linux.
 
 ### Version Control ###
 
-StateCU code and other electronic assets are housed in the following repositories.
-Private repositories are hosted under the Open Water Foundation GitHub account until open source license is released,
-at which time the repositories will be transferred to the OpenCDSS account:
-
+StateCU code and other electronic assets are housed in the following repositories:
 |**Content**                     |**Repository**|**Comment**|
 |--------------------------------|--------------|-----------|
 |Software code                   |[cdss-app-statecu-fortran](https://github.com/OpenCDSS/cdss-app-statecu-fortran)||
@@ -152,7 +147,7 @@ The GitHub issues tool is how developers track issues and communicate on progres
 For an overview of using GitHub issues, see ["Mastering Issues"](https://guides.github.com/features/issues/).
 The following general procedure should be to used add an issue (bug, enhancement request, question, etc.).
 
-1. Add a ***New issue*** on the [StateCU code repository issues page](https://github.com/OpenCDSS/cdss-app-statecu-fortran/issues).
+* Add a ***New issue*** on the [StateCU code repository issues page](https://github.com/OpenCDSS/cdss-app-statecu-fortran/issues).
 	1. The issue title should short and clear, for example "Missing data not handled in ABC file" (which will be indicated as a `bug` below) or
 	"Need report for ABC" (which will be indicated as an `enhancement` below).
 	2. An issue template (via `.github` folder in repository) is provided with instructions on how to submit the issue.
@@ -167,7 +162,6 @@ The following general procedure should be to used add an issue (bug, enhancement
 		2. Select the issue priority as `low`, `medium`, `high`, or `critical`.
 		3. Select the issue size as `XS`, `S`, `M`, `L`, or `XS`.
 		Note that these are relative sizes and not intended to be detailed hourly estimates.
-2. There is currently no GitHub project defined for StateCU.
 
 ### Testing ###
 
@@ -182,10 +176,6 @@ Testing is complex due to the following issues:
 5. Software needs to be tested on full datasets such as CDSS basin datasets, for each response file and program option.
 	1. For example, check water balance.
 6. Software needs to be tested on daily and monthly datasets.
-
-The level of effort for the above needs to be addressed by implementing standard
-test protocols that rely on automation.  This is in progress and is ongoing as the OpenCDSS project protocols
-are adopted by various persons that are involved with StateCU.
 
 The StateCU testing approach is being updated to be more rigorous and automated:
 
