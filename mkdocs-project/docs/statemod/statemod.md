@@ -7,8 +7,8 @@ StateMod is the State of Colorado's water allocation model.
 	+ [Software Developers](#software-developers)
 	+ [Software User Expertise](#software-user-expertise)
 * [License](#license)
-* [OpenCDSS Web Page](#opencdss-web-page) - current and archived downloads
-* [CDSS Web Page](#cdss-web-page) - versions used in CDSS
+* [OpenCDSS Web Page](#opencdss-web-page)
+* [CDSS Web Page](#cdss-web-page)
 * [User Information](#user-information)
 * [Developer Information](#developer-information)
 	+ [Documentation](#documentation)
@@ -23,19 +23,19 @@ StateMod is the State of Colorado's water allocation model.
 
 StateMod is the State of Colorado's water allocation model,
 which simulates allocation of natural streamflow (supply) to demands and operations.
-It attempts to simulate operations under Colorado's Prior Appropriation water law.
-The model can be run using monthly or daily timestep,
+It operates under Colorado's Prior Appropriation Doctrine.
+The model can be run using a monthly or daily timestep,
 depending on supplied input data.
 
 Input to the model consists of a river network definition,
-stations/nodes (stream gage, diversion, reservoir, wells, other),
+stations/nodes (stream gage, diversion, reservoir, etc.),
 and data associated with stations (water rights, time series, etc.).
 Input is typically created using "Data Management Interface" (DMI) software
 including [TSTool](../tstool/tstool.md) and [StateDMI](../statedmi/statedmi.md),
 which automate processing of "command files" to create model input files.
 
-Output from StateMod consists of large binary files with time series data,
-large text file reports, and log and check files, depending on run options.
+Output from StateMod consists of binary files with time series data,
+text file reports, and log and check files, depending on run options.
 Binary files are often processed using TSTool.
 
 The [StateMod GUI](../statemod-gui/statemod-gui.md) (Graphical User Interface) was developed in
@@ -51,8 +51,7 @@ StateMod datasets are not currently maintained in GitHub and should be downloade
 ## Product Leadership ##
 
 StateMod software development leadership is in transition.
-The long-time developer, Ray Bennett, retired from DWR several years ago and has been providing support as a consultant.
-Ray's knowledge needs to be transitioned to new developers.
+Long-time developers have retired and/or changed positions, and new developers are being trained. 
 
 The OpenCDSS effort has focused on putting StateMod code under version control and
 implementing an updated development environment.
@@ -63,10 +62,10 @@ The State of Colorado has designated the following as product contacts for devel
 
 |**Person**             |**GitHub User**|**Role/Comment**|
 |-----------------------|---------------|--------------------------------------------------------------------------------|
-|Ray Bennett            |Rayrbennett    |Legacy developer, typically emails changes but does not use Git/GitHub directly.|
-|Kelley Thompson (DWR)  |kelleythompson |State of Colorado lead developer for StateMod.                                  |
-|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead.                                                    |
-|Steve Malers (OWF)     |smalers        |OpenCDSS lead, facilitating implementation of open source project.              | 
+|Ray Bennett            |Rayrbennett    |Legacy developer, developing for ArkDSS                                         |
+|Kelley Thompson (DWR)  |kelleythompson |State of Colorado lead developer for StateMod                                   |
+|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CWCB lead                                                     |
+|Steve Malers (OWF)     |smalers        |OpenCDSS lead, facilitating implementation of open source project               | 
 
 ## Software User Expertise ##
 
@@ -74,8 +73,9 @@ The following are experienced StateMod users that are typically involved in defi
 
 |**Person**              |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
-|Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
-|Kara Sobieski (WWG)     |karasobieski   |Extensive modeling experience.                                                  |
+|Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models                             |
+|Kara Sobieski (WWG)     |karasobieski   |Extensive modeling experience                                                   |
+|Erin Wilson   (WWG)     |               |Extensive modeling experience                                                   |
 
 ## OpenCDSS Web Page ##
 
@@ -86,7 +86,7 @@ This website also provides access to the development version of the software.
 
 ## CDSS Web Page ##
 
-The CDSS web page provides access to StateMod software and model datasets:
+The CDSS web page provides access to official StateMod software releases and model datasets:
 
 * [StateMod on CDSS](https://www.colorado.gov/pacific/cdss/statemod)
 * [StateMod Datasets](https://www.colorado.gov/pacific/cdss/surface-water-statemod)
@@ -108,7 +108,7 @@ Information for StateMod users includes:
 
 * Model datasets have documentation - see the
 [CDSS website](https://www.colorado.gov/pacific/cdss/modeling-dataset-documentation) for model datasets and documentation.
-* The StateMod User's Manual is available on the [CDSS StateMod page](https://www.colorado.gov/pacific/cdss/software-documentation).
+* The StateMod User's Manual is available on the [CDSS StateMod page](https://www.colorado.gov/pacific/cdss/statemod).
 * There is a need for user-friendly documentation, for example navigable documentation such as this documentation.
 [Prototype StateMod online documentation](http://opencdss.state.co.us/statemod/latest/doc-user/)
 has been created and may be enhanced.
@@ -123,7 +123,7 @@ whereas OpenCDSS is transitioning to the open source gfortran compiler.
 A small project is underway to evaluate options for alternative programming languages for the next generation of StateMod.
 This is a research study and near-term changes to StateMod language are not planned.
 
-### Documentation ###
+### Developer Documentation ###
 
 [Developer Documentation](http://opencdss.state.co.us/statemod/latest/doc-dev/) has been created and
 should be followed by all developers.
@@ -145,17 +145,14 @@ to differentiate between Lahey/gfortran, 32/64 bit, and Windows/Linux.
 ### Version Control ###
 
 StateMod code and other electronic assets are housed in the following repositories.
-Private repositories are hosted under the Open Water Foundation GitHub account until open source license is released,
-at which time the repositories will be transferred to the OpenCDSS account:
-
 |**Content**                     |**Repository**|**Comment**|
 |--------------------------------|--------------|-----------|
 |Software code                   |[cdss-app-statemod-fortran](https://github.com/OpenCDSS/cdss-app-statemod-fortran)||
-|Automated tests                 |[cdss-app-statemod-fortran-test](https://github.com/OpenCDSS/cdss-app-statemod-fortran-test)|Envisioned, need to move to OpenCDSS on GitHub.|
+|Automated tests                 |[cdss-app-statemod-fortran-test](https://github.com/OpenCDSS/cdss-app-statemod-fortran-test)||
 |Developer documentation (MkDocs)|[cdss-app-statemod-fortran-doc-dev](https://github.com/OpenCDSS/cdss-app-statemod-fortran-doc-dev)||
 |User documentation (MkDocs)     |[cdss-app-statemod-fortran-doc-user](https://github.com/OpenCDSS/cdss-app-statemod-fortran-doc-user)||
 
-StateMod software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow/workflow)
+StateMod software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](http://opencdss.state.co.us/opencdss/workflow/workflow/)
 and StateMod developer documentation.
 
 ### Adding an Issue ###
@@ -182,8 +179,6 @@ The following general procedure should be to used add an issue (bug, enhancement
 2. A StateMod product manager lead can also then add the issue to the
 [StateMod project board](https://github.com/OpenCDSS/cdss-app-statemod-fortran/projects)
 as part of overall coordination.
-
-**Need to determine how much of the repository and project board coordination occurs automatically through GitHub settings.**
 
 ### Testing ###
 
