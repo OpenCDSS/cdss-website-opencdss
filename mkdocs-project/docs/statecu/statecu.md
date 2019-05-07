@@ -147,7 +147,7 @@ The GitHub issues tool is how developers track issues and communicate on progres
 For an overview of using GitHub issues, see ["Mastering Issues"](https://guides.github.com/features/issues/).
 The following general procedure should be to used add an issue (bug, enhancement request, question, etc.).
 
-* Add a ***New issue*** on the [StateCU code repository issues page](https://github.com/OpenCDSS/cdss-app-statecu-fortran/issues).
+1. Add a ***New issue*** on the [StateCU code repository issues page](https://github.com/OpenCDSS/cdss-app-statecu-fortran/issues).
 	1. The issue title should short and clear, for example "Missing data not handled in ABC file" (which will be indicated as a `bug` below) or
 	"Need report for ABC" (which will be indicated as an `enhancement` below).
 	2. An issue template (via `.github` folder in repository) is provided with instructions on how to submit the issue.
@@ -162,6 +162,7 @@ The following general procedure should be to used add an issue (bug, enhancement
 		2. Select the issue priority as `low`, `medium`, `high`, or `critical`.
 		3. Select the issue size as `XS`, `S`, `M`, `L`, or `XS`.
 		Note that these are relative sizes and not intended to be detailed hourly estimates.
+2. There is not currently a GitHub project board defined for StateDMI, but it could be added to manage issues.
 
 ### Testing ###
 
