@@ -102,6 +102,7 @@ Important information includes:
 ### Version Control ###
 
 StateDMI code and other electronic assets are housed in the following repositories:
+
 |**Content**                     |**Repository**|**Comment**|
 |--------------------------------|--------------|-----------|
 |Main StateDMI code              |[cdss-app-statedmi-main](https://github.com/OpenCDSS/cdss-app-statedmi-main)||
