@@ -78,7 +78,7 @@ Helpful information includes:
 StateCU GUI is written in Visual Basic.
 See the following developer resources.
 
-### Documentation ###
+### Developer Documentation ###
 
 * Latest [Developer Documentation](https://github.com/OpenCDSS/cdss-app-statecugui-java) - **Not currently online**
 
