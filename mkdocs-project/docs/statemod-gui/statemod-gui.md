@@ -88,7 +88,7 @@ StateMod GUI is comprised of multiple software libraries, some of which are main
 and some of which are used as third-party binary libraries.
 See the following developer resources:
 
-### Documentation ###
+### Developer Documentation ###
 
 * Latest [Developer Documentation](https://github.com/OpenCDSS/cdss-app-statemodgui-java) - README is the developer documentation
 
