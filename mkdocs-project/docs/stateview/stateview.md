@@ -9,8 +9,8 @@ However, many users use the [online CDSS Tools](https://dnrweb.state.co.us/cdss/
 	+ [Software Developers](#software-developers)
 	+ [Software User Expertise](#software-user-expertise)
 * [License](#license)
-* [OpenCDSS Web Page](#opencdss-web-page) - current and archived downloads
-* [CDSS Web Page](#cdss-web-page) - versions used in CDSS
+* [OpenCDSS Web Page](#opencdss-web-page)
+* [CDSS Web Page](#cdss-web-page)
 * [User Information](#user-information)
 * [Developer Information](#developer-information)
 	+ [Documentation](#documentation)
@@ -23,9 +23,8 @@ However, many users use the [online CDSS Tools](https://dnrweb.state.co.us/cdss/
 
 ## Background ##
 
-StateView software provides data-viewing tools for the HydroBase database, when HydroBase is installed on the computer.
-The software was developed to facilitate researching data for modeling,
-as a companion to TSTool and StateDMI, which are used to automate data processing.
+StateView software provides data-viewing tools for the HydroBase database, when HydroBase is attached locally on the computer.
+See instructions for [local HydroBase attachment](http://opencdss.state.co.us/hydrobase/index.html). The software was developed to facilitate researching data for modeling, as a companion to TSTool and StateDMI, which are used to automate data processing.
 
 The [online CDSS Tools](https://dnrweb.state.co.us/cdss/) now provide features to view HydroBase data
 and StateView is currently not actively maintained or developed.
@@ -40,26 +39,24 @@ The State of Colorado has designated the following as product contacts for devel
 
 |**Person**             |**GitHub User**|**Role/Comment**|
 |-----------------------|---------------|--------------------------------------------------------------------------------|
-|Steve Malers (OWF)     |smalers        |OpenCDSS lead and StateView developer.                                          | 
-|              ? (DWR)  |?              |State of Colorado DWR StateView champion.                                       |
-|         ? (CWCB)      |?              |State of Colorado CWCB StateView champion.                                      |
-|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead.                                                    |
+|Steve Malers (OWF)     |smalers        |OpenCDSS lead and StateView developer                                           |
+|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CWCB lead                                                     |
 
 ## Software User Expertise ##
 
 The following are experienced StateView users that are typically involved in defining software functionality and testing.
 
-|**Personr**             |**GitHub User**|**Role/Comment**|
+|**Person**              |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
-|Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
-|Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows.                       |
+|Brian Macpherson (CWCB) |macphersonbr   |                                                                                |
+|Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows                        |
 
 ## OpenCDSS Web Page ##
 
 The OpenCDSS web page provides access to StateView software and documentation.
 This website also provides access to the development version of the software.
 
-* [StateView on OpenCDSS](http://opencdss.state.co.us/StateView/)
+* [StateView on OpenCDSS](http://opencdss.state.co.us/StateView/) - **software products are currently not available**
 
 ## CDSS Web Page ##
 
@@ -77,7 +74,7 @@ The software is licensed using [GPL v3+ license](https://github.com/OpenCDSS/cds
 StateView users are typically CDSS modelers that have also installed HydroBase locally.
 Helpful information includes:
 
-* See the [latest StateView User Documentation](http://opencdss.state.co.us/stateview/latest/doc-user) - **currently not online, only installed with software**
+* See the [latest StateView User Documentation](https://www.colorado.gov/pacific/cdss/stateview)
 
 ## Developer Information ##
 
@@ -86,7 +83,7 @@ StateView is comprised of multiple software libraries, some of which are maintai
 and some of which are used as third-party binary libraries.
 See the following developer resources:
 
-### Documentation ###
+### Developer Documentation ###
 
 * Latest [Developer Documentation](https://github.com/OpenCDSS/cdss-app-stateview-java) - README is the developer documentation
 
