@@ -71,7 +71,7 @@ The software is licensed using [GPL v3+ license](https://github.com/OpenCDSS/cds
 StateCU GUI users are typically CDSS modelers.
 Helpful information includes:
 
-* See the [latest StateCU GUI User Documentation](http://opencdss.state.co.us/statecugui/latest/doc-user) - **currently not online, only installed with software**
+* See the [latest StateCU GUI User Documentation](https://dnrweblink.state.co.us/cwcb/0/doc/146512/Electronic.aspx?searchid=2723f317-9317-4f03-aa58-4ab15d580792)
 
 ## Developer Information ##
 
@@ -90,7 +90,7 @@ An older Visual Basic development environment is used.
 
 StateCU GUI code and other electronic assets are housed in the following repositories.
 
-**The software is not currently maintained in a GitHub repository - can fill in the table once a repository is created.**
+**The software is not currently maintained in a GitHub repository.**
 
 StateCU GUI software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow/workflow.md)
 and StateCU GUI developer documentation.
