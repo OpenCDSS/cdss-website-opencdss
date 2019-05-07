@@ -46,8 +46,8 @@ The following are experienced StateCU GUI users that are typically involved in d
 
 |**Personr**             |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
-|Brian Macpherson (CWCB) |macphersonbr   |                                                                                |
 |Kelley Thompson (DWR)   |kelleythompson |                                                                                |
+|Brian Macpherson (CWCB) |macphersonbr   |                                                                                |
 
 ## OpenCDSS Web Page ##
 
