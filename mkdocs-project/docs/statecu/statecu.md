@@ -103,7 +103,7 @@ Information for StateCU users consists of:
 
 * Model datasets have documentation - see the
 [CDSS website](https://www.colorado.gov/pacific/cdss/modeling-dataset-documentation) for model datasets and documentation.
-* The StateCU User's Manual is available on the [CDSS StateCU page](https://www.colorado.gov/pacific/cdss/software-documentation).
+* The StateCU User's Manual is available on the [CDSS StateCU page](https://www.colorado.gov/pacific/cdss/statecu).
 * There is a need for user-friendly documentation, for example navigable documentation such as this documentation.
 [Prototype StateCU online documentation](http://opencdss.state.co.us/statecu/latest/doc-user/)
 has been created and may be enhanced.
