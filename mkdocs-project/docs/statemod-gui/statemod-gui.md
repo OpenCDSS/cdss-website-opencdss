@@ -53,7 +53,7 @@ The State of Colorado has designated the following as product contacts for devel
 
 The following are experienced StateMod GUI users that are typically involved in defining software functionality and testing.
 
-|**Person**             |**GitHub User**|**Role/Comment**|
+|**Person**              |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
 |Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows.                       |
 
