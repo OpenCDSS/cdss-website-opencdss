@@ -138,7 +138,7 @@ StateCU code and other electronic assets are housed in the following repositorie
 |Developer documentation (MkDocs)|[cdss-app-statecu-fortran-doc-dev](https://github.com/OpenCDSS/cdss-app-statecu-fortran-doc-dev)||
 |User documentation (MkDocs)     |[cdss-app-statecu-fortran-doc-user](https://github.com/OpenCDSS/cdss-app-statecu-fortran-doc-user)||
 
-StateCU software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](../workflow/workflow)
+StateCU software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](http://opencdss.state.co.us/opencdss/workflow/workflow/)
 and StateCU developer documentation.
 
 ### Adding an Issue ###
