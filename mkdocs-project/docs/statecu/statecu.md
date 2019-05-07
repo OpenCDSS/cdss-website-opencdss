@@ -77,7 +77,7 @@ The following are experienced StateCU users that are typically involved in defin
 The OpenCDSS web page provides access to StateCU software, documentation, and tests.
 This website also provides access to the development version of the software.
 
-* [StateCU on OpenCDSS](http://opencdss.state.co.us/statecu/)
+* [StateCU on OpenCDSS](http://opencdss.state.co.us/statecu/) - **software products are currently not available**
 
 ## CDSS Web Page ##
 
