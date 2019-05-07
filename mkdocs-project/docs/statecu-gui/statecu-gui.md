@@ -35,10 +35,10 @@ The State of Colorado has designated the following as product contacts for devel
 
 |**Person**             |**GitHub User**|**Role/Comment**|
 |-----------------------|---------------|--------------------------------------------------------------------------------|
-|Steve Malers (OWF)     |smalers        |OpenCDSS lead.                                                                  | 
-|Kelley Thompson (DWR)  |kelleythompson |State of Colorado DWR StateCU GUI champion.                                     |
-|         ? (CWCB)      |?              |State of Colorado CWCB StateCU GUI champion.                                    |
-|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead.                                                    |
+|Kelley Thompson (DWR)  |kelleythompson |State of Colorado DWR StateCU GUI champion                                      |
+|Ashenafi Madebo (DWR)  |amadeboh       |State of Colorado DWR StateCU GUI champion                                      |
+|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead                                                     |
+|Steve Malers (OWF)     |smalers        |OpenCDSS lead                                                                   | 
 
 ## Software User Expertise ##
 
@@ -46,8 +46,8 @@ The following are experienced StateCU GUI users that are typically involved in d
 
 |**Personr**             |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
-|Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
-|Kelley Thompson (DWR)   |kelleythompson |Extensive experience.                                                           |
+|Brian Macpherson (CWCB) |macphersonbr   |                                                                                |
+|Kelley Thompson (DWR)   |kelleythompson |                                                                                |
 
 ## OpenCDSS Web Page ##
 
