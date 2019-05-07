@@ -2,16 +2,16 @@
 
 TSTool software is used to automate processing of time series and other data
 and is used to create input files for
-[StateCU](../statecu/statecu) and
-[StateMod](../statemod/statemod).
+[StateCU](http://opencdss.state.co.us/opencdss/statecu/statecu/) and
+[StateMod](http://opencdss.state.co.us/opencdss/statemod/statemod/).
 
 * [Background](#background)
 * [Product Leadership](#product-leadership)
 	+ [Software Developers](#software-developers)
 	+ [Software User Expertise](#software-user-expertise)
 * [License](#license)
-* [OpenCDSS Web Page](#opencdss-web-page) - current and archived downloads
-* [CDSS Web Page](#cdss-web-page) - versions used in CDSS
+* [OpenCDSS Web Page](#opencdss-web-page)
+* [CDSS Web Page](#cdss-web-page)
 * [User Information](#user-information)
 * [Developer Information](#developer-information)
 	+ [Documentation](#documentation)
@@ -42,20 +42,19 @@ The State of Colorado has designated the following as product contacts for devel
 
 |**Person**             |**GitHub User**|**Role/Comment**|
 |-----------------------|---------------|--------------------------------------------------------------------------------|
-|Steve Malers (OWF)     |smalers        |OpenCDSS lead and TSTool developer.                                             | 
-|Ashenafi Madebo (DWR)  |?              |State of Colorado DWR TSTool champion.                                          |
-|Erik Skeie (CWCB)      |?              |State of Colorado CWCB TSTool champion.                                         |
-|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead.                                                    |
+|Steve Malers (OWF)     |smalers        |OpenCDSS lead and TSTool developer                                              | 
+|Ashenafi Madebo (DWR)  |amadeboh       |State of Colorado DWR TSTool champion                                           |
+|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CWCB lead                                                     |
 
 ## Software User Expertise ##
 
 The following are experienced TSTool users that are typically involved in defining software functionality and testing.
 
-|**Personr**             |**GitHub User**|**Role/Comment**|
+|**Person**              |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
-|Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
-|Kara Sobieski (WWG)     |karasobieski   |Extensive experience - also others at WWG.                                      |
-|Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows.                       |
+|Brian Macpherson (CWCB) |macphersonbr   |                                                                                |
+|Kara Sobieski (WWG)     |karasobieski   |Extensive experience - also others at WWG                                       |
+|Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows                        |
 
 ## OpenCDSS Web Page ##
 
@@ -81,7 +80,7 @@ TSTool users fall into a spectrum of basic users that browse and view data to ad
 Helpful information includes:
 
 * Model datasets have documentation about how TSTool is used - see the
-[CDSS website](https://www.colorado.gov/pacific/cdss/modeling-data) for model datasets and documentation.
+[CDSS website](https://www.colorado.gov/pacific/cdss) for model datasets and documentation.
 * See the [latest TSTool User Documentation](http://opencdss.state.co.us/tstool/latest/doc-user).
 
 ## Developer Information ##
