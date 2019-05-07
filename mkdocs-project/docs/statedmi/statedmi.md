@@ -49,8 +49,8 @@ The following are experienced StateDMI users that are typically involved in defi
 |**Person**              |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
 |Brian Macpherson (CWCB) |macphersonbr   |                                                                                |
-|Kara Sobieski (WWG)     |karasobieski   |Extensive experience - also others at WWG.                                      |
-|Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows.                       |
+|Kara Sobieski (WWG)     |karasobieski   |Extensive experience - also others at WWG                                       |
+|Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows                        |
 
 ## OpenCDSS Web Page ##
 
