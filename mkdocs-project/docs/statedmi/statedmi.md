@@ -38,10 +38,9 @@ The State of Colorado has designated the following as product contacts for devel
 
 |**Person**             |**GitHub User**|**Role/Comment**|
 |-----------------------|---------------|--------------------------------------------------------------------------------|
-|Steve Malers (OWF)     |smalers        |OpenCDSS lead and StateDMI developer.                                           | 
-|Ashenafi Madebo (DWR) ?|?              |State of Colorado DWR StateDMI champion.                                        |
-|Erik Skeie (CWCB)      |?              |State of Colorado CWCB StateDMI champion.                                       |
-|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead.                                                    |
+|Steve Malers (OWF)     |smalers        |OpenCDSS lead and StateDMI developer                                            | 
+|Ashenafi Madebo (DWR)  |amadeboh       |State of Colorado DWR StateDMI champion                                         |
+|Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CDSS lead                                                     |
 
 ## Software User Expertise ##
 
@@ -49,7 +48,7 @@ The following are experienced StateDMI users that are typically involved in defi
 
 |**Person**              |**GitHub User**|**Role/Comment**|
 |------------------------|---------------|--------------------------------------------------------------------------------|
-|Brian Macpherson (CWCB) |macphersonbr   |Experience with West Slope, and South Platte models.                            |
+|Brian Macpherson (CWCB) |macphersonbr   |                                                                                |
 |Kara Sobieski (WWG)     |karasobieski   |Extensive experience - also others at WWG.                                      |
 |Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows.                       |
 
@@ -85,7 +84,7 @@ StateDMI is written in Java and uses the Eclipse integrated development environm
 StateDMI is comprised of multiple software libraries, some of which are maintained as code in repositories,
 and some of which are used as third-party binary libraries.
 
-### Documentation ###
+### Developer Documentation ###
 
 [Developer Documentation](http://opencdss.state.co.us/statedmi/latest/doc-dev/)
 should be followed by all developers.
@@ -102,10 +101,7 @@ Important information includes:
 
 ### Version Control ###
 
-StateDMI code and other electronic assets are housed in the following repositories.
-Private repositories are hosted under the Open Water Foundation GitHub account until open source license is released,
-at which time the repositories will be transferred to the OpenCDSS account:
-
+StateDMI code and other electronic assets are housed in the following repositories:
 |**Content**                     |**Repository**|**Comment**|
 |--------------------------------|--------------|-----------|
 |Main StateDMI code              |[cdss-app-statedmi-main](https://github.com/OpenCDSS/cdss-app-statedmi-main)||
