@@ -15,10 +15,12 @@ Additional TSTool information and resources are available below:
 
 * [General/User Information](#generaluser-information)
 	+ [Background](#background)
+	+ [User Documentation](#user-documentation)
 	+ [License](#license)
-	+ [Product Leadership](#product-leadership)
+	+ [Software User Expertise](#software-user-expertise)
 * [Developer Information](#developer-information)
-	+ [Documentation](#documentation)
+	+ [Software Developers](#software-developers)
+	+ [Developer Documentation](#developer-documentation)
 	+ [Development Environment](#development-environment)
 	+ [Version Control](#version-control)
 	+ [Adding an Issue](#adding-an-issue)
@@ -30,11 +32,8 @@ Additional TSTool information and resources are available below:
 
 The following sections provide background and information that is useful to TSTool users.
 TSTool users fall into a spectrum of basic users that browse and view data to advanced users that automate complex processes.
-Helpful information includes:
-
-* Model datasets have documentation about how TSTool is used - see the
+CDSS model datasets include documentation about how TSTool is used - see the
 [CDSS website](https://www.colorado.gov/pacific/cdss) for model datasets and documentation.
-* See the [latest TSTool User Documentation](http://opencdss.state.co.us/tstool/latest/doc-user).
 
 ### Background ###
 
@@ -43,6 +42,10 @@ TSTool is used in CDSS to prepare input files for StateCU and StateMod models
 and process output into output product files.
 TSTool can also be used independent of CDSS models and provides features to read data from
 various databases, web services, and file formats, and automate processes.
+
+### User Documentation ###
+
+* Latest [User Documentation](http://opencdss.state.co.us/tstool/latest/doc-user/).
 
 ### License ###
 
@@ -78,7 +81,7 @@ The State of Colorado has designated the following as product contacts for devel
 |Ashenafi Madebo (DWR)  |amadeboh       |State of Colorado DWR TSTool champion                                           |
 |Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CWCB lead                                                     |
 
-### Documentation ###
+### Developer Documentation ###
 
 * Latest [Developer Documentation](http://opencdss.state.co.us/tstool/latest/doc-dev/).
 
