@@ -17,7 +17,8 @@ nav:
 - StateMod: statemod/statemod.md
 - StateMod GUI: statemod-gui/statemod-gui.md
 - StateView: stateview/stateview.md
-- TSTool: tstool/tstool.md
+- TSTool: tstool.md
+#- TSTool: tstool/tstool.md
 # ------- configuration properties ---------------
 # Alphabetize
 # ------------------------------------------------

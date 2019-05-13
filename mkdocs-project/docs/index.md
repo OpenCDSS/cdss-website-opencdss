@@ -32,6 +32,22 @@ Use the right navigation menu to access sections within a page.
 If the website is viewed in a narrow window or on a mobile device,
 the navigation features may be shown as icons with associated popup menus.
 
+Each major software product/tool has the following online documentation:
+
+* **OpenCDSS Product Information Page** - Web pages are available under the main [OpenCDSS http://opencdss.state.co.us](http://opencdss.state.co.us)
+website (listed on the left navigation menu) and can be linked to for OpenCDSS product information.
+For example for TSTool the URL is: [http://opencdss.state.co.us/opencdss/tstool/](http://opencdss.state.co.us/opencdss/tstool/).
+These pages include overview information about the product, and useful links for software users and developers.
+* **OpenCDSS Product Download Page** - To directly access software downloads without navigating through this OpenCDSS documentation,
+use web addresses similar to the following, for example for TSTool:  [http://opencdss.state.co.us/tstool/](http://opencdss.state.co.us/tstool/).
+* **CDSS Integration** - The OpenCDSS initiative focuses on ongoing development and maintenance of CDSS software tools.
+For example, OpenCDSS includes datasets used to test the software.
+Consequently, the OpenCDSS web content may include information that is beyond what a typical software user needs.
+<br><br>Use the [CDSS Software page](https://www.colorado.gov/pacific/cdss/software) to access specific software releases that are
+used on State of Colorado projects.
+The OpenCDSS releases will typically be newer than the releases highlighted on the CDSS website.
+The documentation for specific modeling efforts will indicate software versions that should be used to maintain consistency. 
+
 ## Colorado's Decision Support Systems ##
 
 Colorado's Decision Support Systems (CDSS, [www.colorado.gov/cdss](http://www.colorado.gov/cdss))
