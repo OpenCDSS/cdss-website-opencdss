@@ -6,7 +6,7 @@ and is used to create input files for
 [StateMod](http://opencdss.state.co.us/opencdss/statemod/statemod/).
 Use the following links to download TSTool software.
 
-* **[CDSS TSTool Software Downloads](http://www.colorado.gov/pacific/cdss/tstool/) - releases that support State of CO projects**
+* **[CDSS TSTool Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/tstool/) - releases that support State of CO projects**
 * **[OpenCDSS TSTool Software Downloads](http://opencdss.state.co.us/tstool/) - archive and development releases**
 
 --------------
@@ -17,7 +17,7 @@ Additional TSTool information and resources are available below:
 	+ [Background](#background)
 	+ [User Documentation](#user-documentation)
 	+ [License](#license)
-	+ [Software User Expertise](#software-user-expertise)
+	+ [Report an Issue](#report-an-issue)
 * [Developer Information](#developer-information)
 	+ [Software Developers](#software-developers)
 	+ [Developer Documentation](#developer-documentation)
@@ -51,15 +51,11 @@ various databases, web services, and file formats, and automate processes.
 
 The software is licensed using [GPL v3+ license](https://github.com/OpenCDSS/cdss-app-tstool-main/blob/master/LICENSE.md).
 
-### Software User Expertise ###
+### Report an Issue ###
 
-The following are experienced TSTool users that are typically involved in defining software functionality and testing.
-
-|**Person**              |**GitHub User**|**Role/Comment**|
-|------------------------|---------------|--------------------------------------------------------------------------------|
-|Brian Macpherson (CWCB) |macphersonbr   |                                                                                |
-|Kara Sobieski (WWG)     |karasobieski   |Extensive experience - also others at WWG                                       |
-|Steve Malers (OWF)      |smalers        |Extensive experience with many data processing workflows                        |
+To report an issue or request an enhancement,
+use the [TSTool GitHub repository issues](https://github.com/OpenCDSS/cdss-app-tstool-main/issues).
+Software developers will evaluate the issue.
 
 ## Developer Information ##
 
