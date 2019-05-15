@@ -45,4 +45,4 @@ site_description:  OpenCDSS
 # - installation notes:  https://github.com/squidfunk/mkdocs-material
 theme:
   name: material
-  favicon:  'images/opencdss-favicon.ico'
+  favicon:  'images/NewCOLogo32x32.gif'
