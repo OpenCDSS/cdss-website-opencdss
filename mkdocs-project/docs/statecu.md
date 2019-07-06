@@ -1,17 +1,23 @@
 # OpenCDSS / StateCU #
 
 StateCU is the State of Colorado's consumptive use model.
+Use the following links to download StateCU software.
 
-* [Background](#background)
-* [Product Leadership](#product-leadership)
-	+ [Software Developers](#software-developers)
-	+ [Software User Expertise](#software-user-expertise)
-* [License](#license)
-* [OpenCDSS Web Page](#opencdss-web-page)
-* [CDSS Web Page](#cdss-web-page)
-* [User Information](#user-information)
+* **[CDSS StateCU Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/statecu/) - releases that support State of CO projects**
+* **[OpenCDSS StateCU Software Downloads](http://opencdss.state.co.us/statecu/) - archive and development releases**
+
+--------------
+
+Additional StateCU information and resources are available below:
+
+* [General/User Information](#generaluser-information)
+	+ [Background](#background)
+	+ [User Documentation](#user-documentation)
+	+ [License](#license)
+	+ [Report an Issue](#report-an-issue)
 * [Developer Information](#developer-information)
-	+ [Documentation](#documentation)
+	+ [Software Developers](#software-developers)
+	+ [Developer Documentation](#developer-documentation)
 	+ [Development Environment](#development-environment)
 	+ [Version Control](#version-control)
 	+ [Adding an Issue](#adding-an-issue)
@@ -19,7 +25,20 @@ StateCU is the State of Colorado's consumptive use model.
 
 ------------------
 
-## Background ##
+## General/User Information  ##
+
+The following sections provide background and information that is useful to StateCU users.
+StateCU users generally fall into two categories: "modelers" and "users of model results".
+The former develops model input and runs StateCU on the model input dataset whereas the latter may
+just review models results that someone else has run.
+The CDSS approach tends to support modelers and there is an opportunity to improve access to model results.
+This is challenging because model results files can be very large and finding a way to access and
+view the results, such as on the web, presents technical challenges.
+A new project has been funded to publish complete StateMod model input and results on the web
+to facilitate access without needing to run the model, and the results of that project may
+improve StateCU dataset publishing.
+
+### Background ###
 
 StateCU is the State of Colorado's consumptive use model,
 which simulates consumptive use for agricultural demands.
@@ -28,31 +47,47 @@ The model can be run using monthly or daily timestep depending on consumptive us
 Input to the model consists of consumptive use locations such as climate stations and ditch structures,
 climate time series, and crop data.
 Input is typically created using "Data Management Interface" (DMI) software
-including [TSTool](../tstool/tstool.md) and [StateDMI](../statedmi/statedmi.md),
+including [TSTool](tstool.md) and [StateDMI](statedmi.md),
 which automate processing of "command files" to create model input files.
 
 Output from StateCU consists of large binary files with time series data,
 large text file reports, and log and check files, depending on run options.
 Binary files are often processed using TSTool.
 
-The [StateCU GUI](../statecu-gui/statecu-gui.md) (Graphical User Interface)
+The [StateCU GUI](statecu-gui.md) (Graphical User Interface)
 simplifies creation of basic datasets, running datasets, and viewing results.
 Modelers often use the TSTool and StateDMI software to
 create input files because the approach is automated and
 can be repeated, whereas the GUI can be used to edit simpler datasets.
 
-StateCU datasets are not maintained in GitHub.
+StateCU datasets are not maintained in GitHub and must be downloaded from the
+[CDSS website](https://www.colorado.gov/pacific/cdss/modeling-data).
 
-## Product Leadership ##
+### User Documentation ###
 
-StateCU software development leadership is in transition.
-Several developers have contributed to StateCU over the years.
+* The StateCU User's Manual is available on the [CDSS StateCU page](https://www.colorado.gov/pacific/cdss/statecu).
+* Model datasets have documentation - see the
+[CDSS website](https://www.colorado.gov/pacific/cdss/modeling-dataset-documentation) for model datasets and documentation.
+* There is a need for user-friendly documentation, for example navigable documentation such as this documentation.
+[Prototype StateCU online documentation](http://opencdss.state.co.us/statecu/latest/doc-user/)
+has been created and will be enhanced.
 
-The OpenCDSS effort has focused on putting StateCU code under version control and
-implementing an updated development environment.
-Steve Malers (Open Water Foundation) is leading this effort.
+### License ###
 
-## Software Developers ##
+The software is licensed using [GPL v3+ license](https://github.com/OpenCDSS/cdss-app-statecu-fortran/blob/master/LICENSE.md).
+
+### Report an Issue ###
+
+To report an issue or request an enhancement,
+use the [StateCU GitHub repository issues](https://github.com/OpenCDSS/cdss-app-statecu-fortran/issues).
+Software developers will evaluate the issue.
+
+## Developer Information ##
+
+StateCU is written in Fortran (Fortran 77 with some newer code).
+The OpenCDSS project uses the open source gfortran compiler.
+
+### Software Developers ###
 
 The State of Colorado has designated the following as product contacts for development.
 
@@ -63,60 +98,9 @@ The State of Colorado has designated the following as product contacts for devel
 |Erin Wilson (WWG)      |               |Legacy developer                                                                |
 |Steve Malers (OWF)     |smalers        |OpenCDSS lead, facilitating implementation of open source project               | 
 
-## Software User Expertise ##
-
-The following are experienced StateCU users that are typically involved in defining software functionality and testing.
-
-|**Person**              |**GitHub User**|**Role/Comment**|
-|------------------------|---------------|--------------------------------------------------------------------------------|
-|Ashenafi Madebo  (DWR)  |amadeboh       |Experience with Rio Grande                                                      |
-|Kara Sobieski (WWG)     |karasobieski   |Extensive modeling experience - also others at WWG                              |
-
-## OpenCDSS Web Page ##
-
-The OpenCDSS web page provides access to StateCU software, documentation, and tests.
-This website also provides access to the development version of the software.
-
-* [StateCU on OpenCDSS](http://opencdss.state.co.us/statecu/) - **software products are currently not available**
-
-## CDSS Web Page ##
-
-The CDSS web page provides access to StateCU software and model datasets:
-
-* [StateCU on CDSS](https://www.colorado.gov/pacific/cdss/statecu)
-* [StateCU Datasets](https://www.colorado.gov/pacific/cdss/consumptive-use-statecu)
-
-## License ##
-
-The software is licensed using [GPL v3+ license](https://github.com/OpenCDSS/cdss-app-statecu-fortran/blob/master/LICENSE.md).
-
-## User Information ##
-
-StateCU users generally fall into two categories: "modelers" and "users of model results".
-The former develops model input and runs StateCU on the model input dataset whereas the latter may
-just review models results that someone else has run.
-The CDSS approach tends to support modelers and there is an opportunity to improve access to model results.
-This is challenging because model results files can be very large and finding a way to access and
-view the results, such as on the web, presents technical challenges.
-
-Information for StateCU users consists of:
-
-* Model datasets have documentation - see the
-[CDSS website](https://www.colorado.gov/pacific/cdss/modeling-dataset-documentation) for model datasets and documentation.
-* The StateCU User's Manual is available on the [CDSS StateCU page](https://www.colorado.gov/pacific/cdss/statecu).
-* There is a need for user-friendly documentation, for example navigable documentation such as this documentation.
-[Prototype StateCU online documentation](http://opencdss.state.co.us/statecu/latest/doc-user/)
-has been created and may be enhanced.
-
-## Developer Information ##
-
-StateCU is written in Fortran (Fortran 77 with some newer code).
-The OpenCDSS project uses the open source gfortran compiler.
-
 ### Developer Documentation ###
 
-[Developer Documentation](http://opencdss.state.co.us/statecu/latest/doc-dev/) has been created and
-should be followed by all developers.
+* Latest [Developer Documentation](http://opencdss.state.co.us/statecu/latest/doc-dev/).
 
 ### Development Environment ###
 
@@ -149,15 +133,16 @@ For an overview of using GitHub issues, see ["Mastering Issues"](https://guides.
 The following general procedure should be to used add an issue (bug, enhancement request, question, etc.).
 
 1. Add a ***New issue*** on the [StateCU code repository issues page](https://github.com/OpenCDSS/cdss-app-statecu-fortran/issues).
-	1. The issue title should short and clear, for example "Missing data not handled in ABC file" (which will be indicated as a `bug` below) or
-	"Need report for ABC" (which will be indicated as an `enhancement` below).
+	1. The issue title should short and clear, for example "X calculation is incorrect"
+	(which will be indicated as a `bug` below) or
+	"Need command to ABC" (which will be indicated as an `enhancement` below).
 	2. An issue template (via `.github` folder in repository) is provided with instructions on how to submit the issue.
 	The template provides default fill-in-the-blank sections that are useful for developers.
 	The template text should be edited as appropriate to explain the issue, and is then submitted.
 	Attachments can be used to provide test data or other useful information.  Use a zip file if necessary.
 	3. The issue labels should be specified as completely possible.
 	Labels can be adjusted later as necessary.
-	See the [OpenCDSS Version Control / GitHub Repository Issues](../version-control/version-control.md#github-repository-issues) guidelines.
+	See the [OpenCDSS Version Control / GitHub Repository Issues](version-control/version-control.md#github-repository-issues) guidelines.
 	**If the issue author does not have write permissions on the repository, they will not be able to select issue labels.**
 		1. Select the issue type as `bug`, `enhancement`, or `question`.
 		2. Select the issue priority as `low`, `medium`, `high`, or `critical`.

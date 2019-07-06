@@ -11,14 +11,13 @@ nav:
 - OpenCDSS Development Environment: dev-env/dev-env.md
 - OpenCDSS Testing: testing/testing.md
 - OpenCDSS Workflow: workflow/workflow.md
-- StateCU: statecu/statecu.md
-- StateCU-GUI: statecu-gui/statecu-gui.md
-- StateDMI: statedmi/statedmi.md
-- StateMod: statemod/statemod.md
-- StateMod GUI: statemod-gui/statemod-gui.md
-- StateView: stateview/stateview.md
+- StateCU: statecu.md
+- StateCU GUI: statecu-gui.md
+- StateDMI: statedmi.md
+- StateMod: statemod.md
+- StateMod GUI: statemod-gui.md
+- StateView: stateview.md
 - TSTool: tstool.md
-#- TSTool: tstool/tstool.md
 # ------- configuration properties ---------------
 # Alphabetize
 # ------------------------------------------------
