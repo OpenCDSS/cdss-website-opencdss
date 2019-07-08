@@ -7,7 +7,7 @@ currently used in the standard CDSS modeling environment.
 Use the following links to download StateMod GUI software.
 
 * **[CDSS StateMod Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/statemod/) - releases that support State of CO projects**
-* **OpenCDSS StateMod GUI Software Downloads - not currently enabled**
+* **OpenCDSS StateMod GUI Software Downloads - archive and development releases** (currently not available)
 
 --------------
 

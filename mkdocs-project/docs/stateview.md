@@ -6,7 +6,7 @@ However, many users use the [online CDSS Tools](https://dnrweb.state.co.us/cdss/
 Use the following links to download StateView software.
 
 * **[CDSS StateView Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/stateview/) - releases that support State of CO projects**
-* **OpenCDSS StateView Software Downloads - not currently enabled**
+* **OpenCDSS StateView Software Downloads - archive and development releases** (currently not available)
 
 --------------
 
