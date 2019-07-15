@@ -5,8 +5,6 @@ This page discusses CDSS software licensing consistent with OpenCDSS.
 * [Introduction](#introduction)
 * [License Selection and Implementation](#license-selection-and-implementation)
 * [Copyright Assignment and Contributions](#copyright-assignment-and-contributions)
-* [State of Colorado Contract Language](#state-of-colorado-contract-language)
-* [State Contributions to Other Software Projects](#state-contributions-to-other-software-projects)
 
 -------------
 
