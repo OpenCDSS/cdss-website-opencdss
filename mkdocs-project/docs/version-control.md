@@ -77,7 +77,7 @@ bug fixes are typically made to the master branch and the code is moved forward.
 
 A challenge for OpenCDSS is to integrate traditional software project "to do" lists
 with repository issues list and overall workflow.
-Implementation of the [OpenCDSS Workflow](../workflow/workflow.md) is intended to address this challenge.
+Implementation of the [OpenCDSS Workflow](workflow.md) is intended to address this challenge.
 
 ## Git Repository Naming Conventions ##
 

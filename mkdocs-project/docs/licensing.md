@@ -3,6 +3,7 @@
 This page discusses CDSS software licensing consistent with OpenCDSS.
 
 * [Introduction](#introduction)
+* **[How to Contribute Code and Other Content to Open Source Projects](#how-to-contribute-code-and-other-content-to-open-source-projects)**
 * [License Selection and Implementation](#license-selection-and-implementation)
 * [Copyright Assignment and Contributions](#copyright-assignment-and-contributions)
 
@@ -26,7 +27,25 @@ The license selection was based on a number of criteria that are important to th
 3. Encourage collaboration and use by a wide array of entities.
 4. Consider license compatibility to ensure that use and integration constraints are not placed on software.
 
-## License Selection and Implementation ##
+## How to Contribute Code and Other Content to Open Source Projects ##
+
+OpenCDSS open source projects will accept contributions upon review.
+To submit code or other content, complete the following process **one time**:
+
+1. Print the [Contributor License Agreement (CLA)](licensing-resources/OpenCDSS-CLA-v1.1-2019-08-12.pdf) and sign.
+The CLA applies to individuals and assumes that any potential constraints from employers have been
+resolved by the individual.
+2. Scan the signed CLA and email to Scan the signed CLA and email to
+the [OpenCDSS contact](mailto:brian.macpherson@state.co.us).
+See the [Copyright Assignment and Contributions](#copyright-assignment-and-contributions)
+section for more information about the CLA.
+A PDF scan is preferred but if necessary an image of the signature page is OK.
+This is a blanket CLA that will allow contributions to any OpenCDSS project.
+
+The management team will coordinate acceptance of the CLA with project teams.
+Follow the development protocols for the specific project (see product pages on this website).
+
+## License Selection and Implementation
 
 Based on consideration of the factors in the previous section and a compatibility review of software component licenses,
 the GPL 3.0 license was selected as the license for CDSS software.
@@ -81,6 +100,8 @@ thereby providing flexibility in use.
 Contributed content will comply with the main license and is copyrighted to the State of Colorado
 within the OpenCDSS projects.
 
-In order to contribute any content to OpenCDSS,
-contact the [OpenCDSS contact](mailto:brian.macpherson@state.co.us) about
-completing the [OpenCDSS Contributor License Agreement](OpenCDSS-CLA-v1-2019-02-12.pdf).
+The CLA may change over time but major changes are not expected.
+
+In order to contribute any content to OpenCDSS, follow the instructions in the
+[How to Contribute Code and Other Content to Open Source Projects](#how-to-contribute-code-and-other-content-to-open-source-projects)
+section of this page.
