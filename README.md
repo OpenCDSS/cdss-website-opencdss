@@ -91,6 +91,8 @@ This repository is maintained by the OpenCDSS team.
 The following are major updates for the documentation.
 See the GitHub issues for details.
 
+* 2019-08-12 - Update CLA to version 1.1 to reference the online OpenCDSS licensing URL.
+* 2019-06-30 - Implement standard OpenCDSS product pages with links to downloads, documentation, CDSS, etc.
 * 2019-04-27 - Update to use opencdss.state.co.us.
 * 2018-07-31 - Update to current status with more guidance for participants.
-* 2018-03-12 - Initial version.
+* 2018-03-12 - Initial version using CLA version 1.0.

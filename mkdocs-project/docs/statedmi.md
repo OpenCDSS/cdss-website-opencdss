@@ -118,7 +118,7 @@ The following general procedure should be to used add an issue (bug, enhancement
 	Attachments can be used to provide test data or other useful information.  Use a zip file if necessary.
 	3. The issue labels should be specified as completely possible.
 	Labels can be adjusted later as necessary.
-	See the [OpenCDSS Version Control / GitHub Repository Issues](version-control/version-control.md#github-repository-issues) guidelines.
+	See the [OpenCDSS Version Control / GitHub Repository Issues](version-control.md#github-repository-issues) guidelines.
 	**If the issue author does not have write permissions on the repository, they will not be able to select issue labels.**
 		1. Select the issue type as `bug`, `enhancement`, or `question`.
 		2. Select the issue priority as `low`, `medium`, `high`, or `critical`.
