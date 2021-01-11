@@ -6,7 +6,7 @@ and is used to create input files for
 [StateMod](http://opencdss.state.co.us/opencdss/statemod/statemod/).
 Use the following links to download TSTool software.
 
-* **[CDSS TSTool Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/tstool/) - releases that support State of CO projects**
+* **[CDSS TSTool Software Downloads (official releases)](https://cdss.colorado.gov/software/tstool) - releases that support State of CO projects**
 * **[OpenCDSS TSTool Software Downloads](http://opencdss.state.co.us/tstool/) - archive and development releases**
 
 --------------
@@ -33,7 +33,7 @@ Additional TSTool information and resources are available below:
 The following sections provide background and information that is useful to TSTool users.
 TSTool users fall into a spectrum of basic users that browse and view data to advanced users that automate complex processes.
 CDSS model datasets include documentation about how TSTool is used - see the
-[CDSS website](https://www.colorado.gov/pacific/cdss) for model datasets and documentation.
+[CDSS website](https://cdss.colorado.gov/) for model datasets and documentation.
 
 ### Background ###
 

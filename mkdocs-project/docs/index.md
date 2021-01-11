@@ -2,7 +2,7 @@
 
 This is the documentation for the OpenCDSS project,
 which is the open source software implementation of
-[Colorado's Decision Support Systems (CDSS)](http://cdss.state.co.us).
+[Colorado's Decision Support Systems (CDSS)](https://cdss.colorado.gov/).
 The OpenCDSS effort seeks to change the paradigm of how CDSS software is developed, maintained, and supported,
 in order to encourage a larger software developer and user community to engage
 in transparent and sustainable software projects.
@@ -43,17 +43,17 @@ use web addresses similar to the following, for example for TSTool:  [http://ope
 * **CDSS Integration** - The OpenCDSS initiative focuses on ongoing development and maintenance of CDSS software tools.
 For example, OpenCDSS includes datasets used to test the software.
 Consequently, the OpenCDSS web content may include information that is beyond what a typical software user needs.
-<br><br>Use the [CDSS Software page](https://www.colorado.gov/pacific/cdss/software) to access specific software releases that are
+<br><br>Use the [CDSS Software page](https://cdss.colorado.gov/software) to access specific software releases that are
 used on State of Colorado projects.
 The OpenCDSS releases will typically be newer than the releases highlighted on the CDSS website.
 The documentation for specific modeling efforts will indicate software versions that should be used to maintain consistency. 
 
 ## Colorado's Decision Support Systems ##
 
-Colorado's Decision Support Systems (CDSS, [www.colorado.gov/cdss](http://www.colorado.gov/cdss))
+Colorado's Decision Support Systems (CDSS, [https://cdss.colorado.gov/](https://cdss.colorado.gov/))
 has been developed to answer important questions about Colorado's water resources.
-CDSS efforts are led by the [Colorado Water Conservation Board (CWCB)](http://cwcb.state.co.us)
-and [Colorado Division of Water Resources (DWR)](http://water.state.co.us).
+CDSS efforts are led by the [Colorado Water Conservation Board (CWCB)](https://cwcb.colorado.gov/)
+and [Colorado Division of Water Resources (DWR)](https://dwr.colorado.gov/).
 
 ![CDSS Website](index-images/CDSS-website.png)
 

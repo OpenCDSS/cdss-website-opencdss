@@ -6,7 +6,7 @@ StateDMI software is used to automate processing of data to create input files f
 
 Use the following links to download StateDMI software.
 
-* **[CDSS StateDMI Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/statedmi/) - releases that support State of CO projects**
+* **[CDSS StateDMI Software Downloads (official releases)](https://cdss.colorado.gov/software/statedmi) - releases that support State of CO projects**
 * **[OpenCDSS StateDMI Software Downloads](http://opencdss.state.co.us/statedmi/) - archive and development releases**
 
 --------------
@@ -33,7 +33,7 @@ Additional StateDMI information and resources are available below:
 The following sections provide background and information that is useful to StateDMI users.
 StateDMI users are typically advanced users that are creating model datasets.
 CDSS model datasets include documentation about how StateDMI is used - see the
-[CDSS website](https://www.colorado.gov/pacific/cdss) for model datasets and documentation.
+[CDSS website](https://cdss.colorado.gov/) for model datasets and documentation.
 
 ### Background ###
 

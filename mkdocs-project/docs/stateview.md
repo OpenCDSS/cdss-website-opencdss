@@ -2,10 +2,10 @@
 
 StateView software is used to view data in a local copy of the State of Colorado's HydroBase database.
 StateView provides faster access to data in a local database.
-However, many users use the [online CDSS Tools](https://dnrweb.state.co.us/cdss/).
+However, many users use the [online CDSS Tools](https://dwr.state.co.us/Tools).
 Use the following links to download StateView software.
 
-* **[CDSS StateView Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/stateview/) - releases that support State of CO projects**
+* **[CDSS StateView Software Downloads (official releases)](https://cdss.colorado.gov/software/stateview) - releases that support State of CO projects**
 * **OpenCDSS StateView Software Downloads - archive and development releases** (currently not available)
 
 --------------
@@ -38,12 +38,12 @@ StateView software provides data-viewing tools for the HydroBase database, when 
 See instructions for [local HydroBase attachment](http://opencdss.state.co.us/hydrobase/index.html).
 The software was developed to facilitate researching data for modeling, as a companion to TSTool and StateDMI, which are used to automate data processing.
 
-The [online CDSS Tools](https://dnrweb.state.co.us/cdss/) now provide features to view HydroBase data
+The [online CDSS Tools](https://dwr.state.co.us/Tools) now provide features to view HydroBase data
 and StateView is currently not actively maintained or developed.
 
 ### User Documentation ###
 
-* See the documentation distributed with the software on the [CDSS website](https://www.colorado.gov/pacific/cdss/stateview).
+* See the documentation distributed with the software on the [CDSS website](https://cdss.colorado.gov/software/stateview).
 
 ### License ###
 

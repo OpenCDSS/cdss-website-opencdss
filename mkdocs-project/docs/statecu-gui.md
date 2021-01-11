@@ -6,7 +6,7 @@ The GUI can also be used to create simple datasets using HydroBase web services.
 
 Use the following links to download StateCU GUI software.
 
-* **[CDSS StateCU Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/statecu/) - releases that support State of CO projects**
+* **[CDSS StateCU Software Downloads (official releases)](https://cdss.colorado.gov/software/statecu) - releases that support State of CO projects**
 * **OpenCDSS StateCU GUI Software Downloads - archive and development releases** (currently not available)
 
 --------------
@@ -35,7 +35,7 @@ StateCU GUI users fall into a spectrum of basic users that want to perform a sim
 use analysis for a small area to advanced users that are modeling entire river basins.
 Advanced users may run the StateCU model from the command line.
 CDSS model datasets include documentation about how StateCU is used - see the
-[CDSS website](https://www.colorado.gov/pacific/cdss) for model datasets and documentation.
+[CDSS website](https://cdss.colorado.gov/) for model datasets and documentation.
 
 ### Background ###
 
@@ -44,7 +44,7 @@ The software does not currently exist in a GitHub repository.
 
 ### User Documentation ###
 
-* The [User Documentation](https://www.colorado.gov/pacific/cdss/statecu) provided with software on the CDSS website is the latest documentation.
+* The [User Documentation](http://opencdss.state.co.us/opencdss/statecu/statecu/) provided with software on the CDSS website is the latest documentation.
 
 ### License ###
 

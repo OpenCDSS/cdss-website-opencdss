@@ -3,7 +3,7 @@
 StateMod is the State of Colorado's water allocation model.
 Use the following links to download StateMod software.
 
-* **[CDSS StateMod Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/statemod/) - releases that support State of CO projects**
+* **[CDSS StateMod Software Downloads (official releases)](https://cdss.colorado.gov/software/statemod) - releases that support State of CO projects**
 * **[OpenCDSS StateMod Software Downloads](http://opencdss.state.co.us/statemod/) - archive and development releases**
 
 --------------
@@ -66,13 +66,13 @@ introduces changes that are not represented in the DMI command files.
 These issues could be resolved with more investment.
 
 StateMod datasets are not currently maintained in GitHub and can be downloaded from the
-[CDSS website](https://www.colorado.gov/pacific/cdss/modeling-data).
+[CDSS website](https://cdss.colorado.gov/modeling-data).
 
 ### User Documentation ###
 
-* The StateMod User's Manual is available on the [CDSS StateMod page](https://www.colorado.gov/pacific/cdss/statemod).
+* The StateMod User's Manual is available on the [CDSS StateMod page](https://cdss.colorado.gov/software/statemod).
 * Model datasets have documentation - see the
-[CDSS website](https://www.colorado.gov/pacific/cdss/modeling-dataset-documentation) for model datasets and documentation.
+[CDSS website](https://cdss.colorado.gov/resources/modeling-dataset-documentation) for model datasets and documentation.
 * There is a need for user-friendly documentation, for example navigable documentation such as this documentation.
 [Prototype StateMod online documentation](http://opencdss.state.co.us/statemod/latest/doc-user/)
 has been created and will be enhanced.

@@ -3,7 +3,7 @@
 StateCU is the State of Colorado's consumptive use model.
 Use the following links to download StateCU software.
 
-* **[CDSS StateCU Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/statecu/) - releases that support State of CO projects**
+* **[CDSS StateCU Software Downloads (official releases)](https://cdss.colorado.gov/software/statecu) - releases that support State of CO projects**
 * **[OpenCDSS StateCU Software Downloads](http://opencdss.state.co.us/statecu/) - archive and development releases**
 
 --------------
@@ -61,14 +61,14 @@ create input files because the approach is automated and
 can be repeated, whereas the GUI can be used to edit simpler datasets.
 
 StateCU datasets are not maintained in GitHub and must be downloaded from the
-[CDSS website](https://www.colorado.gov/pacific/cdss/modeling-data).
+[CDSS website](https://cdss.colorado.gov/modeling-data).
 
 ### User Documentation ###
 
 * Latest [User Documentation](http://opencdss.state.co.us/statecu/latest/doc-user/)
-* The legacy StateCU User's Manual is available on the [CDSS StateCU page](https://www.colorado.gov/pacific/cdss/statecu).
+* The legacy StateCU User's Manual is available on the [CDSS StateCU page](https://cdss.colorado.gov/modeling-data/consumptive-use-statecu).
 * Model datasets have documentation - see the
-[CDSS website](https://www.colorado.gov/pacific/cdss/modeling-dataset-documentation) for model datasets and documentation.
+[CDSS website](https://cdss.colorado.gov/resources/modeling-dataset-documentation) for model datasets and documentation.
 
 ### License ###
 

@@ -1,12 +1,12 @@
 # OpenCDSS / StateMod GUI #
 
 The StateMod GUI (graphical user interface) software is used to view StateMod datasets
-(see also the [StateMod software](http://localhost:8000/statemod/statemod/)).
+(see also the [StateMod software](http://opencdss.state.co.us/opencdss/statemod/)).
 The StateMod GUI has not been actively developed in recent years and is not
 currently used in the standard CDSS modeling environment.
 Use the following links to download StateMod GUI software.
 
-* **[CDSS StateMod Software Downloads (official releases)](http://www.colorado.gov/pacific/cdss/statemod/) - releases that support State of CO projects**
+* **[CDSS StateMod Software Downloads (official releases)](https://cdss.colorado.gov/software/statemod) - releases that support State of CO projects**
 * **OpenCDSS StateMod GUI Software Downloads - archive and development releases** (currently not available)
 
 --------------
@@ -35,7 +35,7 @@ StateMod GUI users have typically been interested in viewing data and results wi
 Advanced StateMod users typically run the model on the command line and implement automated workflows
 to process model input and results.
 CDSS model datasets include documentation about how StateMod is used - see the
-[CDSS website](https://www.colorado.gov/pacific/cdss) for model datasets and documentation.
+[CDSS website](https://cdss.colorado.gov/) for model datasets and documentation.
 
 ### Background ###
 
@@ -56,7 +56,7 @@ due to updates in libraries that are used.
 
 ### User Documentation ###
 
-* See the documentation distributed with the software on the [CDSS website](https://www.colorado.gov/pacific/cdss/statemod).
+* See the documentation distributed with the software on the [CDSS website](https://cdss.colorado.gov/software/statemod).
 
 ### License ###
 

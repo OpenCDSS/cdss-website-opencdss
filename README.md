@@ -2,7 +2,7 @@
 
 This repository contains the content for the OpenCDSS project website,
 which is the umbrella project for open source
-[Colorado's Decision Support Systems (CDSS)](http://cdss.state.co.us) software.
+[Colorado's Decision Support Systems (CDSS)](https://cdss.colorado.gov/) software.
 
 See the [deployed OpenCDSS website](http://opencdss.state.co.us/opencdss/).
 
