@@ -4,7 +4,7 @@ HydroBase is the State of Colorado's database for water resources data.
 Use the following links to download HydroBase software and database.
 **Local installation is typically only needed for modeling and advanced data analysis.**
 
-* **[Latest HydroBase Installer](https://dnrftp.state.co.us/DWR/Modeling/HydroBase/CDSSLocalHydroBase_Installer.zip) - clicking
+* **[Latest HydroBase Database Manager Installer](https://dnrftp.state.co.us/DWR/Modeling/HydroBase/CDSSLocalHydroBase_Installer.zip) - clicking
 on the link will download the installer, which when run installs SQL Server Express and HydroBase Database Manager**
 * **[HydroBase Database Archive](https://dnrftp.state.co.us/DWR/Modeling/HydroBase/) - archive of HydroBase snapshots**
 
@@ -63,7 +63,7 @@ The [TSTool](tstool.md) and [StateDMI](statedmi.md) software automate processing
 
 * See the [CDSS HydroBase](https://cdss.colorado.gov/software/hydrobase) web page for more information.
 * **Need to insert link for HydroBase table descriptions, or is the REST web services documentation the main source now?**
-* See the [HydroBase Installation Instructions](https://opencdss.state.co.us/hydrobase/index.html) - **need to rectify with the Word/PDF documentation from Doug Stenzel**
+* See the [HydroBase Installation Instructions](https://opencdss.state.co.us/hydrobase/index.html)
 * See the [TSTool Troubleshooting](http://opencdss.state.co.us/tstool/latest/doc-user/troubleshooting/troubleshooting/) documentation for specific HydroBase issues
 
 ### License ###
@@ -73,7 +73,7 @@ It is made available to the public by the State of Colorado.
 
 ### Report an Issue ###
 
-**Need to insert contact information.**
+Contact Doug Stenzel at [Doug.Stenzel@state.co.us](mailto:Doug.Stenzel@state.co.us)
 
 ## Developer Information ##
 
@@ -85,6 +85,7 @@ The State of Colorado has designated the following as product contacts for devel
 
 |**Person**             |**GitHub User**|**Role/Comment**|
 |-----------------------|---------------|--------------------------------------------------------------------------------|
+|Doug Stenzel (DWR-SEO )|			 	|State of Colorado DWR lead                                                     |
 |Brian Macpherson (CWCB)|macphersonbr   |State of Colorado CWCB lead                                                     |
 
 ### Developer Documentation ###
@@ -106,7 +107,7 @@ The appropriate snapshot can be used with specific projects and software testing
 
 ### Adding an Issue ###
 
-**Need to describe how to report an issue.**
+Contact Doug Stenzel at [Doug.Stenzel@state.co.us](mailto:Doug.Stenzel@state.co.us).
 
 ### Testing ###
 
