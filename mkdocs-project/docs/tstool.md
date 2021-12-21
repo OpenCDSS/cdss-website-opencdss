@@ -16,6 +16,7 @@ Additional TSTool information and resources are available below:
 * [General/User Information](#generaluser-information)
 	+ [Background](#background)
 	+ [User Documentation](#user-documentation)
+	+ [Training](#training)
 	+ [License](#license)
 	+ [Report an Issue](#report-an-issue)
 * [Developer Information](#developer-information)
@@ -46,6 +47,10 @@ various databases, web services, and file formats, and automate processes.
 ### User Documentation ###
 
 * Latest [User Documentation](http://opencdss.state.co.us/tstool/latest/doc-user/).
+
+### Training ###
+
+* Latest [Training Presentations and Videos](http://opencdss.state.co.us/tstool/latest/training-user/).
 
 ### License ###
 
