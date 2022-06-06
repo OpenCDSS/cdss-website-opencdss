@@ -97,31 +97,31 @@ The follow guidelines should be considered when naming repositories:
 indicate a related group of repositories.
 * The first part of the repository name is `cdss` to indicate that the application is part of CDSS.
 * The second part of the repository name indicates the main product type:
-	+ `app` - application
-	+ `lib` - library, can be followed by a modifier, such as `lib-dmi-hydrobase` for
-	HydroBase Data Management Interface (DMI) library
-	+ `util` - one or more general utilities
+    + `app` - application
+    + `lib` - library, can be followed by a modifier, such as `lib-dmi-hydrobase` for
+      HydroBase Data Management Interface (DMI) library
+    + `util` - one or more general utilities
 * A product name follows, such as `statemod` for the StateMod modeling software.
 * If necessary, a language or other modifier follows, such as `fortran` for StateMod:
-	+ helps to quickly identify the main development environment, skill set that is needed,
-	and programming language
-	+ in some cases, facilitates different languages to be implemented for the same product, such
-	as different language to access HydroBase web services (`java`, `js`, `python`, etc.)
+    + helps to quickly identify the main development environment, skill set that is needed,
+      and programming language
+    + in some cases, facilitates different languages to be implemented for the same product, such
+      as different language to access HydroBase web services (`java`, `js`, `python`, etc.)
 * Additional modifiers can be added to the main product, such as 
 `doc-dev` for developer documentation, `doc-user` for user documentation, and `test` for automated tests.
 
 Multiple repositories are typically used for a product, for several reasons:
 
 1. Repositories can become unwieldy if they are too large,
-especially if a large number of contributors require someone to merge content for many content types.
+   especially if a large number of contributors require someone to merge content for many content types.
 2. It is convenient to require that contributors to a component repository only need to be skilled
-at the tools needed for that repository.
-For example, if a contributor only contributes to StateMod documentation,
-they don't need to concern themselves with understanding the software code development environment.
-This is particularly relevant for large, complicated development environments.
+   at the tools needed for that repository.
+   For example, if a contributor only contributes to StateMod documentation,
+   they don't need to concern themselves with understanding the software code development environment.
+   This is particularly relevant for large, complicated development environments.
 3. Using different repositories allows permissions to be controlled at a more granular level.
-For example, a contributor with write access to documentation and test repositories
-may not have write access to the code repository.
+   For example, a contributor with write access to documentation and test repositories
+   may not have write access to the code repository.
 
 ## GitHub Projects ##
 
@@ -167,6 +167,7 @@ issue type, priority, and size:
 |---------------|---------------|-------------------------------------------------------------------------|---------|-------------|
 |Type           |`bug`          |GitHub default for bug                                                   |         |             |
 |Type           |`enhancement`  |GitHub default for enhancement                                           |         |             |
+|Type           |`task`         |Something that needs to get done.                                        |black    |`#000000`    |
 |               |               |                                                                         |         |             |
 |Priority       |`low`          |`Priority: planned for future`                                           |green    |`#00ff00`    |
 |Priority       |`medium`       |`Priority: normal maintenance and enhancements`                          |yellow   |`#ffff00`    |
