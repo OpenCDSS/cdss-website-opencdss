@@ -5,7 +5,6 @@ StateView provides faster access to data in a local database.
 However, many users use the [online CDSS Tools](https://dwr.state.co.us/Tools).
 Use the following links to download StateView software.
 
-* **[CDSS StateView Software Downloads (official releases)](https://cdss.colorado.gov/software/stateview) - releases that support State of CO projects**
 * **OpenCDSS StateView Software Downloads - archive and development releases** (currently not available)
 
 --------------

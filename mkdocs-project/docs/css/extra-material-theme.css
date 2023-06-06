@@ -12,3 +12,6 @@ article ul ul {
 article ul ul ul {
 	list-style-type:  square !important;
 }
+a:link {
+	text-decoration: underline;
+  }

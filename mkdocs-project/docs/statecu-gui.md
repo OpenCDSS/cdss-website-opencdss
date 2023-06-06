@@ -1,7 +1,7 @@
 # OpenCDSS / StateCU GUI #
 
 The StateCU GUI (graphical user interface) software is used to view and edit StateCU datasets
-for the [StateCU](http://opencdss.state.co.us/opencdss/statecu/statecu/) software..
+for the [StateCU](statecu.md) software..
 The GUI can also be used to create simple datasets using HydroBase web services.
 
 Use the following links to download StateCU GUI software.

@@ -2,8 +2,8 @@
 
 TSTool software is used to automate processing of time series and other data
 and is used to create input files for
-[StateCU](http://opencdss.state.co.us/opencdss/statecu/statecu/) and
-[StateMod](http://opencdss.state.co.us/opencdss/statemod/statemod/).
+[StateCU](statecu.md) and
+[StateMod](statemod.md).
 Use the following links to download TSTool software.
 
 * **[CDSS TSTool Software Downloads (official releases)](https://cdss.colorado.gov/software/tstool) - releases that support State of CO projects**

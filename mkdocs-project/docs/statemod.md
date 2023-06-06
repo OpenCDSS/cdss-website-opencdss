@@ -137,7 +137,7 @@ StateMod code and other electronic assets are housed in the following repositori
 |Developer documentation (MkDocs)|[cdss-app-statemod-fortran-doc-dev](https://github.com/OpenCDSS/cdss-app-statemod-fortran-doc-dev)||
 |User documentation (MkDocs)     |[cdss-app-statemod-fortran-doc-user](https://github.com/OpenCDSS/cdss-app-statemod-fortran-doc-user)||
 
-StateMod software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](http://opencdss.state.co.us/opencdss/workflow/workflow/)
+StateMod software should be updated using a "feature branch" approach as per the [OpenCDSS Workflow](workflow.md)
 and StateMod developer documentation.
 
 ### Adding an Issue ###

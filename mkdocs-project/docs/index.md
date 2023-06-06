@@ -209,7 +209,7 @@ More information will be provided in the future.
 ## License ##
 
 The license for this documentation is the
-[Creative Commons CC-BY 4.0 license](https://github.com/OpenCDSS/cdss-website-opencdss/blob/master/LICENSE.md).
+[Creative Commons CC-BY 4.0 license](licensing.md).
 
 ## Source Repository on GitHub ##
 
